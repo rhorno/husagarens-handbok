@@ -1,0 +1,104 @@
+---
+id: skadedjur
+titel: Skadedjur
+kategori: husets-skal
+nyckelord: [möss, råttor, myror, getingar, husbock, hästmyra, sanering, svartmyror, skadeinsekter, bekämpningsmedel, gnagare, husbockslarv, skadedjursförsäkring, ohyra]
+---
+# Skadedjur
+
+## Översikt
+Skadedjur är ett samlingsnamn för djur som kan orsaka skador på egendom, sprida smitta eller ge upphov till obehag och olägenhet för människors hälsa – exempelvis råttor, möss, fåglar, fladdermöss och vissa insekter som getingar och husbock.[^1] Boverket ser en tydlig trend mot ökande problem med skadedjur i byggnader, vilket är en del av bakgrunden till att skydd mot skadedjur regleras särskilt i byggreglerna.[^2] Som husägare möter du i praktiken två typer av problem: dels gnagare och insekter som söker sig in i huset för mat, vatten och skydd (möss, råttor, myror, getingar), dels virkeslevande insekter som husbock och hästmyra som direkt kan skada husets bärande konstruktion.[^3] Ansvaret för att hålla en bostad fri från skadedjur vilar enligt miljöbalken på fastighetsägaren, oavsett om det är ett villahushåll, en bostadsrättsförening eller en hyresvärd.[^4] God förebyggande tätning, tidig upptäckt och rätt val av bekämpningsmetod är avgörande – dels för att undvika kostsamma skador, dels för att många kraftfulla bekämpningsmedel numera är förbehållna yrkesmässiga användare med särskilt tillstånd.[^5]
+
+## Grunderna
+<!-- nivå: nybörjare -->
+Här är de skadedjur du oftast stöter på i och kring ett svenskt hus, och hur de skiljer sig åt.
+
+Möss tar sig in genom förvånansvärt små öppningar – det räcker med en springa på 6–7 millimeter, ungefär diametern på en penna.[^6] De söker sig gärna inomhus mellan september och februari när det blir kallt ute och maten tryter utomhus.[^7] Tecken på musangrepp är spillning, gnagmärken och krafsande eller pipande ljud i väggar. Den största risken är inte bara att de förstör mat och isolering, utan att de gnager på elledningar, vilket i värsta fall kan orsaka kortslutning och brand.[^7]
+
+Råttor är större och grövre men behöver ändå bara ett hål på cirka 20 millimeter för att ta sig in.[^6] Spillningen är trubbig och cirka 1,8 centimeter lång, ofta jämförd med riskorn. Råttor sprider sjukdomar som salmonella och hantavirus via urin och avföring, och precis som möss kan de orsaka brandfara genom att gnaga på kablar.[^8]
+
+Myror i eller kring huset är oftast svartmyror (trädgårdsmyror), 2–4 millimeter stora, som gärna letar sig in under vår och sommar för att hitta mat.[^9] Vanliga myror äter inte trä – det är viktigt att skilja dem från den betydligt större hästmyran (Camponotus), Sveriges största myrart, som gnager ut gångar i fuktigt eller skadat trä för att bygga bo där, utan att äta träet.[^10] Angrepp av hästmyra kan pågå länge innan de upptäcks och tyder ofta på att virket redan har fuktskador.[^10]
+
+Getingar är rovinsekter som normalt är nyttiga eftersom de äter andra skadeinsekter, men de blir ett problem när ett bo byggs nära uteplatser eller under tak där människor vistas.[^11]
+
+Husbock är den skadeinsekt som kan orsaka störst skada på ett hus, eftersom larverna borrar sig genom bärande virke – ofta i vindsutrymmen, takstolar och reglar – under flera år utan att synas utifrån.[^12] Ett tydligt tecken är ovala flyghål i virket, ofta med ojämna kanter, samt ljust sågspån (borrmjöl) i eller under träet.[^13]
+
+Sanering är den samlade termen för åtgärder som utrotar ett skadedjursangrepp – allt från fällor och bete till kemisk bekämpning och i vissa fall byte av angripet virke. Omfattande eller upprepade angrepp bör alltid hanteras av en certifierad skadedjurstekniker.[^5]
+
+## Regler & lagkrav
+Ansvaret för skadedjur i bostäder regleras i första hand av miljöbalken: en bostad ska vara fri från skadedjur, och den som äger fastigheten ska vidta de åtgärder som krävs för att förebygga eller åtgärda olägenheter för människors hälsa.[^4] I en bostadsrättsförening innebär det att föreningen enligt miljöbalken ska hålla fastigheten fri från skadedjur genom förebyggande arbete och kontroll, medan så kallad ohyra (till exempel vägglöss och kackerlackor) istället regleras i bostadsrättslagens sjunde kapitel, där föreningen är skyldig att omgående sanera i flerbostadshus oavsett vem som orsakat problemet.[^14] Bor du i hyresrätt är hyresvärden skyldig att vidta åtgärder mot skadedjur även om det är hyresgästen som orsakat problemet, men hyresgästen är i sin tur skyldig att omedelbart anmäla skadedjur till hyresvärden och medverka vid saneringen.[^15]
+
+För nybyggnation ställer Boverkets byggregler krav på att byggnader ska utformas så att det försvåras för skadedjur att ta sig in i byggnaden och dess byggnadsdelar, samt att lägenhetsskiljande konstruktioner ska vara tillräckligt täta mot skadedjur – om det inte är orimligt med hänsyn till byggnadens utformning och användning (till exempel för carportar).[^16] Som allmänt råd anges att ventiler och liknande öppningar mot det fria kan förses med ett beständigt metallnät med en maskvidd på högst 5 millimeter tillsammans med insektsnät.[^16] Den 1 juli 2025 trädde nya byggregler i kraft (BFS 2024:8) som ersätter delar av de äldre byggreglerna (BBR); kravet på skydd mot skadedjur flyttades till ett eget kapitel om skadedjur men innebär ingen ändring i sak jämfört med tidigare BBR 6:8.[^17] Fram till och med den 1 juli 2026 har byggherrar kunnat välja att tillämpa antingen de äldre eller de nya reglerna i sin helhet för pågående ärenden – från och med nu gäller genomgående de nya reglerna för nya bygglovsärenden.[^17]
+
+Kemiska bekämpningsmedel mot skadedjur (biocider) är indelade i behörighetsklasser som styr vem som får använda dem. Klass 3-produkter får användas av vem som helst, medan klass 1- och 2-produkter kräver särskild kompetens och i vissa fall tillstånd.[^18] Sedan den 1 augusti 2014 får privatpersoner inte längre köpa eller använda råttgift[^29] – antikoagulerande medel mot råttor – dessa tillhör en behörighetsklass som är förbehållen yrkesmässiga användare med särskilt tillstånd, medan vissa musmedel av första generationens antikoagulantia fortfarande får användas av privatpersoner i åverkanssäkra betesstationer.[^19] Alfakloralos, ett annat medel mot möss, fick skärpta villkor 2019 efter förgiftningsfall på katter och får numera bara användas av certifierade yrkesmässiga användare.[^19] För yrkesmässig användning av bekämpningsmedel i och kring bostäder krävs tillstånd från Folkhälsomyndigheten (för andra miljöer, som livsmedelslokaler, är det Arbetsmiljöverket); sedan juni 2025 kallas dessa tillstånd "bekämpningsmedel med kunskapskrav" respektive "med särskilt omfattande kunskapskrav" istället för de tidigare beteckningarna So och SoX.[^20] Kraven och klassindelningen kan skilja sig något åt beroende på om det gäller möss eller råttor, så kontrollera alltid produktens etikett och gällande klassning innan du hanterar bekämpningsmedel själv.
+
+## Praktisk vägledning
+<!-- nivå: mellan -->
+Förebyggande tätning är den mest kostnadseffektiva åtgärden mot gnagare. Villaägarnas rekommendation är att först lokalisera alla hål där möss och råttor kan ta sig in, och sedan täta dem noggrant – helst redan på sensommaren eller hösten innan gnagarna söker sig inomhus.[^21] Använd galvaniserade musband (plåtlister) över avlånga öppningar, och metallduk med en maskvidd på högst 5 millimeter och en trådtjocklek på minst 0,7 millimeter över ventiler och rörgenomföringar – vanligt insektsnät räcker inte eftersom möss kan gnaga sig igenom det, men inte igenom metall.[^22] Se särskilt till att golvbrunnar har galler på plats och att vattenlås är fyllda, eftersom det annars är en vanlig väg in för både gnagare och insekter.[^22] Traditionella slagfällor rekommenderas ofta framför gift eftersom gift numera är hårt reglerat för privat bruk och innebär en risk för husdjur och andra djur.[^23]
+
+Utomhus minskar du risken genom att hålla gräset kortklippt närmast huset, undvika att stapla ved eller möbler mot fasaden, hålla buskage och grenar en bit från väggen och se till att komposter och sopkärl är väl tillslutna.[^24] Bladlusangripna buskar nära huset drar ofta till sig stora mängder svartmyror, så trimning av sådan vegetation är en enkel förebyggande åtgärd.[^9]
+
+Mot svartmyror inomhus är noggrann städning den mest effektiva åtgärden, eftersom myrorna framför allt söker sig in efter matrester och fukt; ett enda saftstänk kan snabbt locka till sig stora mängder myror.[^9] Om myrorna redan tagit sig in behöver du lokalisera själva boet för att bli av med problemet helt, annars kommer de tillbaka.[^25]
+
+Vid getingbo nära huset är huvudregeln att låta boet vara ifred om det inte stör, eftersom getingar är nyttodjur som håller efter andra skadeinsekter.[^11] Är boet litet och lättåtkomligt kan det i vissa fall avlägsnas försiktigt, men sitter boet svåråtkomligt, är stort, eller om du är osäker, bör du anlita en skadedjurstekniker – getingar kan bli aggressiva när boet störs.[^11]
+
+Vid misstanke om husbock eller andra virkeslevande insekter är snabb identifiering avgörande: leta efter ovala flyghål (ofta 6×3 mm med fransiga kanter), ljust, jämnt sågspån och eventuellt en skrapande gnagljud från vinden på varma sommardagar, eftersom vuxna husbockar flyger och kan sprida sig vidare till andra byggnader vid temperaturer över 25 grader, vilket gör att spridningsrisken ökar under mycket varma somrar.[^30] Ett angripet område bör isoleras i väntan på professionell bedömning, och kontakta ditt försäkringsbolag så snart du misstänker angrepp, eftersom skadan annars riskerar att växa och bli dyrare att åtgärda.[^26]
+
+## Fördjupning
+<!-- nivå: avancerad -->
+Husbock (Hylotrupes bajulus) förekommer i Sverige främst i den sydöstra delen av landet, med särskilt hög förekomst på Öland och Gotland.[^27] Larverna angriper i första hand splintved av barrträ men kan i vissa fall även gå på ek inomhus, och de är vanliga i importerat virke och i parkettgolv.[^27] Den vuxna skalbaggen är brunsvart med fint gråvitt hår och två otydliga ljusa hårfläckar på täckvingarna; hanen blir 7–17 mm och honan 12–25 mm, men den vuxna baggen lever bara i 3–4 veckor – det är larvstadiet, som kan pågå i flera år innan angreppet upptäcks, som orsakar den egentliga skadan.[^27][^12] Vid konstaterat angrepp är frysning eller värmebehandling av angripet, löst virke effektiva åtgärder; för fast, bärande konstruktion krävs ofta kemisk impregnering eller byte av virke, vilket bör bedömas av en sakkunnig.[^27]
+
+Hästmyra (Camponotus herculeanus/ligniperdus m.fl.) är Sveriges största myrart. Till skillnad från husbock och strimmig trägnagare äter hästmyran inte själva träet – den mekaniskt urgröper gångar i redan fuktskadat eller mjuknat virke för att skapa boutrymme, vilket gör att ett hästmyreangrepp nästan alltid är en indikation på en underliggande fukt- eller rötskada som också måste åtgärdas, inte bara myrorna själva.[^10] Det är denna mekanism som skiljer hästmyran från exempelvis husbock: att enbart sanera myrorna utan att identifiera och torka ut fuktkällan löser inte grundproblemet.
+
+Ur ett regulatoriskt perspektiv illustrerar bekämpningsmedelslagstiftningen en generell EU-harmoniserad struktur: godkännande av biocidprodukter (inklusive rodenticider) sker inom ramen för EU:s biocidförordning, men medlemsstaterna beslutar själva om nationella behörighetsklasser och kompetenskrav för användning.[^18] Sveriges system med tre behörighetsklasser (där klass 1 kräver individuellt tillstånd och godkänd kunskapsprövning, klass 2 kräver att produkten hanteras av yrkesmässig aktör i skadedjursbekämpningsbranschen, och klass 3 är fri att använda för alla) är en förklaring till varför i princip all professionell råttbekämpning i bostäder i praktiken upphandlas av en certifierad skadedjursfirma snarare än utförs av fastighetsägaren själv.[^18][^19] Skärpningen 2019 av villkoren för alfakloralos, efter dokumenterade förgiftningsfall på katter som fått i sig behandlade betesstationer eller döda gnagare, är ett exempel på hur sekundärförgiftning hos icke-målorganismer driver fram striktare regulatoriska krav över tid – ett mönster som återkommer i hela EU:s biocidreglering.[^19]
+
+I byggregelsammanhang är skadedjursparagrafen (numera 10 kap. i de nya byggreglerna, tidigare avsnitt 6:8 BBR) medvetet teknikneutral: den anger ett funktionskrav ("försvåras för skadedjur att ta sig in") snarare än en exakt lösning, med det angivna metallnätet om 5 mm maskvidd som ett allmänt råd, inte ett tvingande mått.[^16][^17] Vid dimensionering av ventilationsöppningar med kombinerat metall- och insektsnät bör man vara medveten om att skyddsnäten minskar det fria genomströmningsarean, vilket i sin tur påverkar ventilationsflödet – något som behöver kompenseras redan vid projektering, särskilt i självdragssystem med i utgångsläget marginella tryckskillnader.
+
+## Underhållsschema
+
+| När | Vad | Hur ofta |
+|---|---|---|
+| Sensommar/tidig höst | Inspektera och täta springor, rörgenomföringar och ventiler mot möss och råttor innan gnagarsäsongen börjar[^21] | 1 gång/år |
+| Vår och sommar | Kontrollera grund, fasad och uteplats för getingbo och tidiga tecken på svartmyror[^9][^11] | 1–2 gånger/år |
+| Varma sommardagar | Lyssna efter skrapljud på vinden och inspektera synligt virke för flyghål eller sågspån (husbocksangrepp)[^13] | Årligen under juni–augusti |
+| Löpande | Håll mark, ved och buskage minst en armlängd från fasaden; rensa bort bladluskoloniserade buskar | Löpande |
+| Vid fuktskada | Undersök om fuktskadat virke också visar tecken på hästmyra, eftersom skadedjuret ofta följer på fukten[^10] | Vid varje fuktskada |
+| Vid nyupptäckt angrepp | Kontakta försäkringsbolag och vid behov certifierad skadedjurstekniker innan skadan hunnit sprida sig[^26] | Vid behov |
+
+## Vanliga misstag
+Ett vanligt misstag är att bara täta de hål man ser utan att leta systematiskt, trots att det räcker med en 6–7 millimeters springa för att möss ska ta sig in – otäta ventiler och rörgenomföringar i grunden missas ofta.[^6] Ett annat är att använda vanligt insektsnät istället för metallnät i ventiler; möss kan gnaga sig igenom plast och tunt nät men inte igenom metall.[^22] Många köper också gift mot råttor i tron att det är tillåtet för privatpersoner – sedan 2014 är antikoagulerande råttmedel förbehållna yrkesmässiga användare med tillstånd, så egen hantering är i praktiken varken laglig eller att rekommendera.[^19] Vid hästmyreangrepp är ett vanligt misstag att bara sanera myrorna utan att åtgärda den bakomliggande fuktskadan, vilket gör att problemet återkommer.[^10] Vid husbock är det vanligaste misstaget att vänta för länge – eftersom angreppet kan pågå i flera år inuti virket utan synliga tecken, upptäcks skadan ofta först när den redan är omfattande.[^12] Slutligen underskattar många vikten av att anmäla skadedjur till hyresvärd eller bostadsrättsförening direkt: ju längre man väntar, desto större risk att angreppet hinner sprida sig till grannlägenheter innan sanering sätts in.[^15]
+
+## När ska du anlita proffs
+Anlita en certifierad skadedjurstekniker så snart du misstänker angrepp av husbock eller annan virkeslevande insekt, eftersom bedömning av skadans omfattning på bärande konstruktion kräver fackkunskap och ofta även kemisk behandling eller byte av virke. Detsamma gäller vid råttproblem, eftersom effektiva bekämpningsmedel mot råttor numera kräver särskilt tillstånd och inte får hanteras av privatpersoner. Stora eller återkommande angrepp av möss, getingbon som sitter svåråtkomligt eller nära platser där barn eller allergiska personer vistas, samt alla fall av hästmyra i bärande virke bör också hanteras professionellt. De flesta villaförsäkringar innehåller ett saneringsavtal, ofta med Anticimex, där sanering av skadedjur ingår eller kan tecknas som tillägg – kontrollera din egen försäkring innan du anlitar och betalar för sanering själv.[^28]
+
+## Källor
+1. [Fastighetsägarna — Åtgärder vid skadedjur och ohyra](https://www.fastighetsagarna.se/fakta/fastighetsagarens-ansvar/skadedjur-och-ohyra/)
+2. [Boverket — Konsekvensutredning BFS 2024:8](https://rinfo.boverket.se/BFS2024-8/dok/BFS2024-8_Konsekvensutredning.pdf)
+3. [Anticimex — Faktablad skadedjur](https://www.anticimex.se/faktablad-skadedjur/)
+4. [Fastighetsägarna — Fastighetsägarens ansvar för skadedjur och ohyra](https://www.fastighetsagarna.se/fakta/fastighetsagarens-ansvar/skadedjur-och-ohyra/)
+5. [Kemikalieinspektionen — Rått- och musmedel](https://www.kemi.se/lagar-och-regler/lagstiftningar-inom-kemikalieomradet/bekampningsmedel/biocider/vanliga-typer-av-biocidprodukter/ratt--och-musmedel)
+6. [Anticimex — Möss: fakta och hur du blir av med möss i huset](https://www.anticimex.se/moss/)
+7. [Anticimex — Möss: fakta och hur du blir av med möss i huset](https://www.anticimex.se/moss/)
+8. [Anticimex — Råttor: få hjälp med råttbekämpning](https://www.anticimex.se/rattor/)
+9. [Anticimex — Svartmyror: så slipper du myror inomhus](https://www.anticimex.se/svartmyror/)
+10. [Anticimex — Faktablad skadedjur](https://www.anticimex.se/faktablad-skadedjur/)
+11. [Länsförsäkringar — Så tar du bort getingbon](https://www.lansforsakringar.se/privat/tips-guider/hem/skadedjur/flygande-insekter/geting/getingbo/)
+12. [Villaägarna — Täcker din försäkring skadedjur?](https://www.villaagarna.se/radgivning-och-tips/forsakring/artiklar/tacker-din-forsakring-skadedjur/)
+13. [Riksantikvarieämbetet — Husbock (Hylotrupes bajulus)](https://www.raa.se/samhallsutveckling/beredskap/risker-omrade-for-omrade/skadedjur-och-mogel/insektsnyckeln/husbock-hylotrupes-bajulus/)
+14. [Bostadsrätterna — Ohyra och skadedjur](https://www.bostadsratterna.se/kunskapsbanken/o/ohyra-och-skadedjur)
+15. [Hyresgästföreningen — Så blir du av med ohyra och skadedjur inomhus](https://www.hyresgastforeningen.se/stod-och-rad/lagenheten/skadedjur_och_ohyra/)
+16. [Boverket — Konsoliderad BBR (2011:6 t.o.m. 2020:4), avsnitt 6:8 Skydd mot skadedjur](https://www.boverket.se/globalassets/publikationer/dokument/2020/konsoliderad-bbr-2011-6-tom-2020-4.pdf)
+17. [Boverket — Konsekvensutredning BFS 2024:8](https://rinfo.boverket.se/BFS2024-8/dok/BFS2024-8_Konsekvensutredning.pdf)
+18. [Kemikalieinspektionen — Rått- och musmedel](https://www.kemi.se/lagar-och-regler/lagstiftningar-inom-kemikalieomradet/bekampningsmedel/biocider/vanliga-typer-av-biocidprodukter/ratt--och-musmedel)
+19. [Kemikalieinspektionen — Rått- och musmedel](https://www.kemi.se/lagar-och-regler/lagstiftningar-inom-kemikalieomradet/bekampningsmedel/biocider/vanliga-typer-av-biocidprodukter/ratt--och-musmedel)
+20. [Folkhälsomyndigheten — Allmän information om användningstillstånd för bekämpningsmedel](https://www.folkhalsomyndigheten.se/regler-och-tillsyn/allman-information-om-anvandningstillstand-for-bekampningsmedel/)
+21. [Villaägarna — Undvik ultraljudsskrämmor, så tätar du huset mot möss](https://www.villaagarna.se/radgivning-och-tips/tradgard/skadedjur/sa-tatar-du-huset-mot-moss/)
+22. [Villaägarna — Undvik ultraljudsskrämmor, så tätar du huset mot möss](https://www.villaagarna.se/radgivning-och-tips/tradgard/skadedjur/sa-tatar-du-huset-mot-moss/)
+23. [Anticimex — Möss: fakta och hur du blir av med möss i huset](https://www.anticimex.se/moss/)
+24. [Anticimex — Råttor: få hjälp med råttbekämpning](https://www.anticimex.se/rattor/)
+25. [Anticimex — Svartmyror: så slipper du myror inomhus](https://www.anticimex.se/svartmyror/)
+26. [Villaägarna — Täcker din försäkring skadedjur?](https://www.villaagarna.se/radgivning-och-tips/forsakring/artiklar/tacker-din-forsakring-skadedjur/)
+27. [Riksantikvarieämbetet — Husbock (Hylotrupes bajulus)](https://www.raa.se/samhallsutveckling/beredskap/risker-omrade-for-omrade/skadedjur-och-mogel/insektsnyckeln/husbock-hylotrupes-bajulus/)
+28. [Villaägarna — Täcker din försäkring skadedjur?](https://www.villaagarna.se/radgivning-och-tips/forsakring/artiklar/tacker-din-forsakring-skadedjur/)
+29. [Sveriges riksdag — Svar på skriftlig fråga om tillstånd för råttbekämpning](https://www.riksdagen.se/sv/dokument-och-lagar/dokument/skriftlig-fraga/tillstand-for-rattbekampning_h511327/)
+30. [Träskyddsinstitutet — Virkesförstörande insekter inomhus](https://traskyddsinstitutet.se/tsi-virkesforstorande-insekter-inomhus-1/)
