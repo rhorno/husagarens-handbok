@@ -25,7 +25,7 @@ Ett par grundbegrepp som är bra att känna till:
 ## Regler & lagkrav
 Ansvaret för att en byggnad inte orsakar fukt- eller mögelskador vilar i första hand på byggherren. Boverkets byggregler (BBR), avsnitt 6:5 om fukt, är ett funktionskrav: byggnader ska utformas så att fukt inte orsakar skador, lukt eller mikrobiell tillväxt som kan påverka hygien eller hälsa. Byggherren ska kunna visa – genom så kallad fuktsäkerhetsprojektering – att kraven är uppfyllda, antingen genom beräkningar och mätningar, genom beprövade lösningar som fungerat i minst tio år, eller genom kvalitativa bedömningar baserade på branschregler och forskning. Ansvaret kan delegeras till en projektör men ligger kvar hos byggherren.[^7]
 
-För våtrum (badrum, tvättstuga och liknande) finns branschregler – bland annat GVK:s "Säkra Våtrum" – som är utformade efter BBR och kräver tätskikt över hela våtrummets riskzoner: hela golvytan samt väggytor inom en meter från dusch- eller badplats. Dessa branschregler samordnas mellan GVK, Säker Vatten, Byggkeramikrådet och MVK.[^8] Reglerna uppdaterades senast den 1 januari 2026, då en tydligare beskrivning av våtzonerna började gälla för nya projekt.[^15] Att inte följa branschreglerna kan i praktiken innebära att en försäkring inte täcker en senare fuktskada i badrummet, eftersom försäkringsbolag ofta kräver bevis på att den branschstandard som gällde när badrummet byggdes eller renoverades följdes.[^11]
+För våtrum (badrum, tvättstuga och liknande) finns branschregler – bland annat GVK:s "Säkra Våtrum" – som är utformade efter BBR och kräver tätskikt över hela våtrummets riskzoner: hela golvytan och samtliga väggytor i rummet, med skärpta krav på bland annat tätskiktets höjd i våtzon 1 – ytan inom en meter från dusch- eller badplats – jämfört med övriga väggar. Dessa branschregler samordnas mellan GVK, Säker Vatten, Byggkeramikrådet och MVK.[^8] Reglerna uppdaterades senast den 1 januari 2026, då en tydligare beskrivning av våtzonerna började gälla för nya projekt.[^15] Att inte följa branschreglerna kan i praktiken innebära att en försäkring inte täcker en senare fuktskada i badrummet, eftersom försäkringsbolag ofta kräver bevis på att den branschstandard som gällde när badrummet byggdes eller renoverades följdes.[^11]
 
 Vad gäller radon fanns tidigare ett statligt radonbidrag för åtgärder mot förhöjda radonhalter i småhus. I och med statsbudgeten för 2022 avsatte staten inga medel för bidraget, och sedan dess går det inte längre att söka radonbidrag – det finns heller inget nationellt ersättningsprogram som ersatt det.[^9] Skatteverkets ROT-avdrag kan däremot omfatta sanering av radon och asbest när det sker i samband med byggarbete, men mögelsanering nämns inte som en egen ROT-berättigad kategori i Skatteverkets vägledning – kontrollera alltid med Skatteverket eller den anlitade firman vad som gäller i det enskilda fallet.[^10]
 
@@ -51,14 +51,14 @@ Kommunens miljö- och hälsoskyddskontor är tillsynsmyndighet för "olägenhet 
 
 **Referensnivåer i olika miljöer.** Utöver bostäders 200 Bq/m³ som årsmedelvärde finns särskilda gränser för arbetsmiljöer: på vanliga arbetsplatser ovan mark gäller samma referensnivå, 200 Bq/m³, motsvarande en årlig exponering av 0,36 × 10⁶ Bq·h/m³ vid 1 800 arbetstimmar. I arbeten under jord är gränsen för årlig exponering dubbelt så hög, 0,72 × 10⁶ Bq·h/m³ (motsvarande cirka 400 Bq/m³), och vid gruv- och bergarbete gäller ännu högre exponeringsgränser. Skillnaden speglar att exponeringstid och sammanhang, inte bara koncentrationen i sig, avgör den samlade stråldosen.[^3]
 
-**Dos-respons och samverkan med rökning.** Risken för lungcancer ökar med cirka 16 procent av grundrisken för varje ökning med 100 Bq/m³ i radonhalt vid långvarig exponering, och sambandet är linjärt utan någon känd säker undre gräns. Effekten samverkar med rökning: den som redan har en förhöjd grundrisk för lungcancer, till exempel genom rökning, är mer känslig för radonexponering, vilket förklarar varför de allra flesta av de uppskattade 500 årliga radonrelaterade lungcancerfallen (cirka 450) inträffar hos rökare.[^16]
+**Dos-respons och samverkan med rökning.** Risken för lungcancer ökar med cirka 16 procent av grundrisken för varje ökning med 100 Bq/m³ i radonhalt vid långvarig exponering, ett samband som internationell forskning sammanställd i WHO:s handbok om radon bedömer vara linjärt utan någon känd säker undre gräns.[^17] Effekten samverkar med rökning: den som redan har en förhöjd grundrisk för lungcancer, till exempel genom rökning, är mer känslig för radonexponering, vilket förklarar varför de allra flesta av de uppskattade 500 årliga radonrelaterade lungcancerfallen (cirka 450) inträffar hos rökare.[^16]
 
 ## Underhållsschema
 | När | Vad | Hur ofta |
 |---|---|---|
 | Löpande | Vädra badrum och kök, kontrollera att fläktar och ventiler inte är blockerade | Dagligen/veckovis |
 | Vår och höst | Okulär kontroll av krypgrund, källare och vind för fukt, lukt eller missfärgning | 2 gånger/år |
-| Vid avfuktare i krypgrund | Filterbyte och funktionskontroll av avfuktare, rengöring av ventiler | Årligen[^13] |
+| Vid avfuktare i krypgrund | Filterbyte och funktionskontroll av avfuktare, rengöring av ventiler | Årligen |
 | Radonmätning | Långtidsmätning med mätdosor under eldningssäsong (1 okt–30 apr), minst 2 månader | Vart 10:e år, samt efter större renovering eller ventilationsbyte[^2] |
 | Våtrum | Kontroll av fogar, silikon och tätskikt kring golvbrunn och väggenomföringar | Årligen |
 | Dränering | Kontroll av stuprör, markens lutning från grunden och dräneringens funktion | Årligen, samt efter kraftiga regn |
@@ -76,15 +76,16 @@ Anlita en fuktutredare eller ett besiktningsföretag när du inte själv kan avg
 2. [Villaägarna — Radon? Så sänker du radonhalten](https://www.villaagarna.se/radgivning-och-tips/utomhus/grund/radon-sa-far-du-ner-radonhalten/)
 3. [Strålsäkerhetsmyndigheten — Referensnivå och gränsvärden för radon](https://www.stralsakerhetsmyndigheten.se/omraden/radon/referensniva-och-gransvarden-for-radon/)
 4. [SGU — Markradon](https://www.sgu.se/samhallsplanering/risker/radon-och-stralning/markradon/)
-5. [Anticimex — Mögel: fakta, symptom och sanering](https://www.anticimex.se/mogel/)
+5. [TräGuiden — Mikroorganismer](https://www.traguiden.se/om-tra/materialet-tra/traets-egenskaper-och-kvalitet/bestandighet1/mikroorganismer1/)
 6. [TräGuiden — Fuktkvot och mätning](https://www.traguiden.se/om-tra/byggfysik/fukt/fukt/fuktkvot-och-matning/)
 7. [Husbyggaren — Fuktsäkerhet kommer in för sent i byggprocessen](https://www.husbyggaren.se/fuktsakerhet-kommer-in-for-sent-i-byggprocessen/)
 8. [GVK — Tätskikt i våtutrymme. Är det krav på tätskikt i hela våtrummet?](https://www.gvk.se/fragor-och-svar/vad-raknas-som-ett-vatrum-och-nar-kravs-tatskikt/tatskikt-i-vatutrymme.-ar-det-krav-pa-tatskikt-i-hela-vatrummet)
 9. [Strålsäkerhetsmyndigheten — Jag har hört talas om radonbidrag, hur får jag det?](https://www.stralsakerhetsmyndigheten.se/omraden/radon/fragor-och-svar-om-radon/jag-har-hort-talas-om-radonbidrag-hur-far-jag-det/)
 10. [Skatteverket — Ger arbetet rätt till rotavdrag?](https://www.skatteverket.se/foretag/skatterochavdrag/rotochrut/gerarbetetratttillrotavdrag.4.5c1163881590be297b5173bf.html)
 11. [Konsumenternas — Villaförsäkringar: Vattenskador](https://www.konsumenternas.se/forsakringar/boendeforsakringar/villaforsakringar/vattenskador/)
-12. [Anticimex — Professionell fuktmätning och fuktkontroll](https://www.anticimex.se/fuktkontroll/fuktmatning/)
-13. [Anticimex — Krypgrundsbesiktning](https://www.anticimex.se/krypgrundsbesiktning/)
+12. [Boverket — Risker för fuktskador](https://www.boverket.se/sv/byggande/forebygg-fel-brister-skador/risker-byggande/risker-fuktskador/)
+13. [Boverket — Risk med fukt från uteluft i krypgrund](https://www.boverket.se/sv/byggande/forebygg-fel-brister-skador/risker-byggande/risker-fuktskador/fuktrisker-for-grund/krypgrund/risk-med-fukt-fran-uteluft-i-krypgrund/)
 14. [Strålsäkerhetsmyndigheten — Finns det en radonkarta för området?](https://www.stralsakerhetsmyndigheten.se/omraden/radon/fragor-och-svar-om-radon/jag-ar-intresserad-av-ett-hus-pa-en-viss-adress-finns-det-en-radonkarta-for-omradet/)
 15. [GVK — Förtydligande av våtzoner i uppdaterade branschregler Säkra Våtrum 2026](https://www.gvk.se/nyheter/2025/fortydligande-av-vatzoner-i-uppdaterade-branschregler-sakra-vatrum-2026/)
 16. [Strålsäkerhetsmyndigheten — Hälsorisker med radon](https://www.stralsakerhetsmyndigheten.se/omraden/radon/vad-ar-radon/halsorisker-med-radon/)
+17. [WHO Handbook on Indoor Radon — Health effects of radon (NCBI Bookshelf)](https://www.ncbi.nlm.nih.gov/books/NBK143219/)

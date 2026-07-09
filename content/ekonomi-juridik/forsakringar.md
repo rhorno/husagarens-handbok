@@ -15,7 +15,7 @@ En villahemförsäkring ger dig ett grundskydd mot brand, vattenskador, naturska
 ## Grunderna
 <!-- nivå: nybörjare -->
 
-Hemförsäkringen och villaförsäkringen gör olika saker. Hemförsäkringen gäller din lösa egendom — möbler, kläder, elektronik — och dig som person, oavsett var i landet du befinner dig. Villaförsäkringen gäller själva byggnaden, byggnadstillbehör (till exempel fast inredning) och tomtmarken.[^4] Om du äger ett fristående garage eller ett växthus omfattas det bara om det är angivet i ditt försäkringsbrev.[^2]
+Hemförsäkringen och villaförsäkringen gör olika saker. Hemförsäkringen gäller din lösa egendom — möbler, kläder, elektronik — och dig som person, oavsett var i landet du befinner dig. Villaförsäkringen gäller själva byggnaden, byggnadstillbehör (till exempel fast inredning) och tomtmarken.[^2] Om du äger ett fristående garage eller ett växthus omfattas det bara om det är angivet i ditt försäkringsbrev.[^2]
 
 Grundskyddet i en villaförsäkring gäller vanligtvis vid:
 
@@ -39,13 +39,13 @@ Några ord du kommer stöta på:
 
 ## Regler & lagkrav
 
-Det finns ingen svensk lag som tvingar dig att teckna hem- eller villaförsäkring. Riksdagens civilutskott har vid upprepade tillfällen avvisat förslag om att göra hemförsäkring obligatorisk, med motiveringen att det ska vara upp till var och en att avgöra om och i vilken omfattning man vill ha försäkringsskydd — den enda försäkring som är lagstadgad för de allra flesta är trafikförsäkringen för motordrivna fordon.[^8] Det som i praktiken gör försäkringen närmast obligatorisk för husägare är avtal: en långivare får som villkor för bolånet kräva att du har en villaförsäkring eller ett bostadsrättstillägg, men inte att du väljer ett visst försäkringsbolag eller tecknar andra tjänster hos långivaren.[^9]
+Det finns ingen svensk lag som tvingar dig att teckna hem- eller villaförsäkring. Riksdagens civilutskott har vid upprepade tillfällen avvisat förslag om att göra hemförsäkring obligatorisk, med motiveringen att det ska vara upp till var och en att avgöra om och i vilken omfattning man vill ha försäkringsskydd.[^8] Den enda försäkring som är lagstadgad för de allra flesta är trafikförsäkringen för motordrivna fordon: enligt trafikskadelagen ska alla motordrivna fordon som används i trafik vara trafikförsäkrade.[^16] Det som i praktiken gör försäkringen närmast obligatorisk för husägare är avtal: en långivare får som villkor för bolånet kräva att du har en villaförsäkring eller ett bostadsrättstillägg, men inte att du väljer ett visst försäkringsbolag eller tecknar andra tjänster hos långivaren.[^9]
 
 Själva försäkringsavtalet regleras av försäkringsavtalslagen (FAL). Enligt den ska försäkringsbolaget hantera ditt skadeärende skyndsamt, och ersättningen ska betalas ut senast en månad efter att du lämnat den utredning bolaget rimligen kan begära av dig.[^10] Betalar bolaget senare än detta har du rätt till dröjsmålsränta, som beräknas som referensräntan plus åtta procentenheter per år.[^10]
 
 Vilka villkor som gäller avgörs helt av avtalet mellan dig och försäkringsbolaget — det är avtalsvillkoren, inte en generell lag om "vad en hemförsäkring ska innehålla", som styr vad som ingår och vad som inte gör det.[^11] Det är därför fullt möjligt att två bolags villaförsäkringar med samma namn skiljer sig åt i sak, och du bör läsa försäkringsvillkoren (inte bara broschyren) innan du tecknar.
 
-Är du inte nöjd med hur ett skadeärende hanterats är första steget att vända dig till din skadereglerares chef, sedan till bolagets klagomålsansvarige. Går det inte att lösa internt kan du ta ärendet vidare till Allmänna reklamationsnämnden (ARN).[^10] Reglerna för villaförsäkring är i grunden nationella, men självrisknivåer, undantag och tilläggsförsäkringar varierar mellan bolag snarare än mellan kommuner.
+Är du inte nöjd med hur ett skadeärende hanterats är första steget att vända dig till din skadereglerares chef, sedan till bolagets klagomålsansvarige.[^10] Går det inte att lösa internt kan du ta ärendet vidare till Allmänna reklamationsnämnden (ARN), en statlig myndighet som kan pröva de flesta tvister mellan en konsument och ett företag, förutsatt att det värde man tvistar om överstiger 3 000 kronor.[^17] Reglerna för villaförsäkring är i grunden nationella, men självrisknivåer, undantag och tilläggsförsäkringar varierar mellan bolag snarare än mellan kommuner.
 
 ## Praktisk vägledning
 <!-- nivå: mellan -->
@@ -56,14 +56,14 @@ Vilka villkor som gäller avgörs helt av avtalet mellan dig och försäkringsbo
 - **Fullvärdesförsäkring:** de flesta villaförsäkringar tecknas till fullvärde, vilket innebär att hela husets värde är försäkrat utan ett fast försäkringsbelopp — om huset brinner ner helt får du ersättning för att bygga upp ett likvärdigt hus.[^2]
 - **Självrisknivå:** en högre grundsjälvrisk sänker premien men slår hårdare vid en vattenskada eller ett inbrott. Titta även på särskilda självrisker för naturskador, som ofta ligger betydligt högre än grundsjälvrisken.[^12]
 
-**Håll koll på underhållsansvaret.** Skador som beror på bristande underhåll — till exempel ett åldrat tak som läcker eller otillräcklig dränering runt huset — räknas som ditt eget ansvar och ersätts normalt inte, oavsett hur kraftigt ovädret var.[^13] Kontakta ditt försäkringsbolag om du bygger till, bygger om eller på annat sätt förändrar husets värde, så att försäkringsbeloppet fortfarande motsvarar husets faktiska värde.
+**Håll koll på underhållsansvaret.** Skador som beror på bristande underhåll — till exempel ett åldrat tak som läcker eller otillräcklig dränering runt huset — räknas som ditt eget ansvar och ersätts normalt inte, oavsett hur kraftigt ovädret var.[^12] Kontakta ditt försäkringsbolag om du bygger till, bygger om eller på annat sätt förändrar husets värde, så att försäkringsbeloppet fortfarande motsvarar husets faktiska värde.
 
 **Gör en skadeanmälan rätt.**
 
 1. Begränsa skadan om du kan — stäng av vattnet, täck ett hål i taket — men kasta inte skadade saker innan du kommit överens med bolaget om ersättningen.
 2. Dokumentera: fotografera skadan, ta fram kvitton, inköpsdatum och pris för det som skadats.
 3. Anmäl skadan så snart som möjligt, digitalt eller via telefon, till ditt försäkringsbolag.
-4. Vid en skada på huset blir du normalt själv "beställare" av reparationen även om bolaget rekommenderar en hantverkare — det är du som ansvarar för att följa upp kvalitet och eventuella klagomål på arbetet.[^4]
+4. Vid en skada på huset blir du normalt själv "beställare" av reparationen även om bolaget rekommenderar en hantverkare — det är du som ansvarar för att följa upp kvalitet och eventuella klagomål på arbetet.[^2]
 
 Ersättningen kan ges som reparation, kontant ersättning eller ersättningsvara, och bolaget ska betala inom en månad från att du lämnat den utredning som krävs.[^4] [^10]
 
@@ -127,3 +127,5 @@ Kontakta en oberoende försäkringsförmedlare eller Konsumenternas Försäkring
 13. [Villaägarna — Ersätter försäkringen skador efter oväder?](https://www.villaagarna.se/radgivning-och-tips/forsakring/artiklar/tacker-forsakringen-skador-efter-ovader/)
 14. [Svensk Försäkring — Färre brand- och åskskador men fortsatt höga kostnader](https://www.svenskforsakring.se/aktuellt/nyheter/2026/farre-brand--och-askskador-men-fortsatt-hoga-kostnader/)
 15. [Konsumentverket — Få konsumenter känner till viktig del i hemförsäkringen](https://www.konsumentverket.se/nyhet/fa-konsumenter-kanner-till-viktig-del-i-hemforsakringen/)
+16. [Transportstyrelsen — Trafikförsäkring](https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/trafikforsakring/)
+17. [Konsumenternas — Klaga i ett försäkringsärende](https://www.konsumenternas.se/konsumentstod/klaga-angra-anmal/klaga-i-ett-forsakringsarende/)

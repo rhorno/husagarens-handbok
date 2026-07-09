@@ -15,7 +15,7 @@ Ett bolån betalas i regel i två delar varje månad: **ränta** (kostnaden för
 
 **Belåningsgrad** är hur stor del av bostadens marknadsvärde som lånet utgör. Om huset är värt 3 000 000 kronor och lånet är 2 100 000 kronor är belåningsgraden 70 procent. Ju lägre belåningsgrad, desto mindre risk för banken – och därför ofta lägre ränta för dig.
 
-När du köper en bostad delas lånet vanligen upp i ett **bottenlån**, som är den del banken lånar ut med bostaden som säkerhet (normalt upp till 70–85 procent av värdet beroende på bank), och eventuellt ett **topplån** för det som ligger däröver, som ofta har högre ränta eftersom säkerheten är svagare[^6]. Resten av köpesumman måste du täcka med egna pengar – **kontantinsatsen**.
+När du köper en bostad delas lånet vanligen upp i ett **bottenlån**, som är den del banken lånar ut med bostaden som säkerhet (normalt upp till 70–85 procent av värdet beroende på bank)[^6], och eventuellt ett **topplån** eller en kompletterande kredit för det som ligger däröver. Ett sådant topplån saknar ofta fullgod säkerhet i bostaden – på samma sätt som lån som täcker belopp över bolånetaket ofta ges som blancolån utan säkerhet – och den svagare säkerheten gör att räntan normalt är högre än på bottenlånet[^9][^10]. Resten av köpesumman måste du täcka med egna pengar – **kontantinsatsen**.
 
 **Bindningstid** avgör hur länge din ränta är låst. Väljer du **rörlig ränta** ändras räntan i takt med räntemarknaden, oftast med tre månaders bindning. Väljer du **bunden ränta** (till exempel 1, 2, 3, 5 eller 10 år) vet du exakt vad räntekostnaden blir under hela perioden, men du kan få betala en avgift om du löser lånet i förtid[^5].
 
@@ -32,7 +32,7 @@ Det tidigare skärpta kravet på ytterligare 1 procents amortering för hushåll
 
 Samma datum höjdes **bolånetaket** från 85 till 90 procent av bostadens marknadsvärde för nya bostadsköp, vilket sänkte kravet på kontantinsats från 15 till 10 procent[^2]. För **tilläggslån** (till exempel för att låna mer mot en bostad du redan äger) sänktes istället maxgränsen från 85 till 80 procent av bostadens värde[^2]. En "tröghetsregel" innebär att en ny värdering av bostaden i syfte att utöka lånet bara får ske vart femte år[^1][^2].
 
-Vissa banker kan bevilja **amorteringsfrihet** för nyproducerade bostäder under en period, samt tillfälligt vid särskilda skäl som arbetslöshet, sjukdom eller föräldraledighet – detta är en möjlighet inom bankens egen bedömning, inte en generell rättighet, och varierar mellan långivare[^8].
+Långivaren kan bevilja **amorteringsfrihet** i högst fem år för den som köper en nyproducerad bostad för första gången, samt tillfälligt vid särskilda skäl som arbetslöshet, långvarig sjukskrivning eller dödsfall i nära familjen – detta är en möjlighet inom långivarens egen bedömning, inte en generell rättighet, och det finns ingen skyldighet för långivaren att bevilja undantaget[^8].
 
 Löser du ett bundet lån i förtid har du som konsument rätt att göra det, men långivaren har då rätt till **ränteskillnadsersättning** – en ersättning för den ränteförlust banken gör. Beräkningsmetoden ändrades från 1 juli 2025: för lån som binds från det datumet jämförs din räntenivå med marknadsräntor (swapräntor) med motsvarande återstående bindningstid, plus ett påslag; för äldre bindningar gäller tidigare beräkningsmetoder som utgår från statsobligationsräntor[^4]. Innan du löser lånet i förtid har du rätt att begära en skriftlig uppgift om vilka antaganden banken använder i sin beräkning[^4].
 
@@ -46,7 +46,7 @@ Ett par konkreta åtgärder som ofta ger bättre villkor:
 
 - **Begär ditt amorteringsunderlag** och ta med det när du förhandlar – det visar banken att du är påläst och jämför på allvar.
 - **Jämför flera långivare** samtidigt, inte bara din nuvarande bank, eftersom rabatter varierar med lånestorlek, belåningsgrad och hur många tjänster du har hos banken (så kallad "helkund")[^5].
-- **Se över belåningsgraden.** Om du amorterat ner lånet under en tröskel (till exempel från över 70 procent till under 70 procent) kan det både sänka amorteringskravet och ge en bättre ränta, eftersom banken tar mindre risk[^1][^6].
+- **Se över belåningsgraden.** Om du amorterat ner lånet under en tröskel (till exempel från över 70 procent till under 70 procent) kan det både sänka amorteringskravet och ge en bättre ränta, eftersom banken tar mindre risk[^1][^5].
 - **Bind inte längre än du planerar att bo kvar.** Fast ränta ger budgetsäkerhet, men om du säljer eller flyttar under bindningstiden riskerar du ränteskillnadsersättning[^5].
 
 När du ska bedöma vad du har råd att låna gör banken en så kallad kvar-att-leva-på-kalkyl (KALP), där den utgår från din inkomst och drar av amortering, ränta (ofta med en högre kalkylränta för att klara framtida räntehöjningar), boendekostnader och övriga levnadskostnader för att se vad som blir kvar[^6]. Konsumentverket publicerar årligen referensvärden för hushållskostnader (mat, kläder, hygien med mera) som kan användas som ett jämförelsemått i din egen budgetplanering, även om bankernas egna kalkyler kan skilja sig åt[^7].
@@ -84,4 +84,6 @@ Ta hjälp av en bolåneexpert, oberoende rådgivare eller flera bankers rådgiva
 5. [Konsumenternas — Boränta, viktigt att tänka på](https://www.konsumenternas.se/lan--betalningar/lan/bolan/boranta/)
 6. [Villaägarna — Bolån: Hur mycket kan jag låna till husköpet?](https://www.villaagarna.se/radgivning-och-tips/boendeekonomi/bolan/lana-pengar-till-huset/)
 7. [Konsumentverket — Vilka kostnader har ett hushåll?](https://www.konsumentverket.se/ekonomi/vilka-kostnader-har-ett-hushall/)
-8. [Nordea — Amorteringsfritt bolån](https://www.nordea.se/privat/produkter/bolan/amorteringsfritt-bolan.html)
+8. [Konsumenternas — Amorteringskrav på bolån](https://www.konsumenternas.se/lan--betalningar/lan/bolan/amorteringskrav/)
+9. [Konsumenternas — Privatlån och blancolån](https://www.konsumenternas.se/lan--betalningar/lan/konsumtionslan/blancolan-och-privatlan/)
+10. [Konsumenternas — Bolån](https://www.konsumenternas.se/lan--betalningar/lan/bolan/)
