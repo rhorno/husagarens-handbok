@@ -121,4 +121,4 @@ Själva grävningen och installationen av fiberanslutningen sköts normalt av n�
 20. [Stadsnätsföreningen — Robust fiberanläggning](https://stadsnatsforeningen.se/branschstod/robust-infrastruktur/robust-fiberanlaggning/)
 21. [Sveriges riksdag — Lag (2016:534) om åtgärder för utbyggnad av bredbandsnät](https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2016534-om-atgarder-for-utbyggnad-av_sfs-2016-534/)
 22. [Bahnhof — Så placerar du din router för bästa WiFi](https://bahnhof.se/privat/kunskap/sa-placerar-du-din-router-for-basta-wifi/)
-23. [PTS — Wifi (trådlöst hemmanätverk)](https://www.pts.se/sv/privat/radio/tackning/inomhustackning/wifi-tradlost-hemmanatverk/)
+23. [Kjell & Company — Tips för bättre wifi-täckning hemma](https://www.kjell.com/se/kunskap/guider/tips-for-battre-wifi-tackning-hemma)

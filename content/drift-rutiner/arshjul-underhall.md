@@ -92,4 +92,4 @@ Brandskyddskontroll får bara utföras av en behörig kontrollant som är utsedd
 15. [Villaägarna — Så skottar du bort snö från taket](https://www.villaagarna.se/radgivning-och-tips/utomhus/senaste/sa-skottar-du/)
 16. [Villaägarna — Då är det dags för stambyte](https://www.villaagarna.se/radgivning-och-tips/vvs/artiklar/dags-for-stambyte/)
 17. [Storstockholms brandförsvar — Allt om brandvarnare](https://www.storstockholm.brand.se/kunskapsartiklar/brandvarnare/)
-18. [Boverket — Risker med fukt från uteluft i krypgrund](https://www.boverket.se/sv/byggande/forebygg-fel-brister-skador/risker/risker-fuktskador/fuktrisker-for-grund/krypgrund/risk-med-fukt-fran-uteluft-i-krypgrund/)
+18. [Boverket — Risker med fukt från uteluft i krypgrund](https://www.boverket.se/sv/byggande/forebygg-fel-brister-skador/risker-byggande/risker-fuktskador/fuktrisker-for-grund/krypgrund/risk-med-fukt-fran-uteluft-i-krypgrund/)
