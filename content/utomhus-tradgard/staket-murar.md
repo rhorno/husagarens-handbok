@@ -17,7 +17,7 @@ Innan du sätter en spade i jorden är det bra att kunna skilja på de tre begre
 - **Plank** är tätare och mer avskärmande än ett staket, ofta i trä, glas eller liknande material, och ger insyns- eller bullerskydd.[^3]
 - **Mur** är en konstruktion utan genomsikt, ofta av sten, betong eller block. En **stödmur** är en mur som är bakfylld på ena sidan och håller upp jordmassor vid en nivåskillnad i marken.[^2][^9]
 
-Vilken kategori en konstruktion hamnar i avgörs inte bara av höjden utan av en helhetsbedömning: storlek, utformning, material, placering, syfte och hur mycket den påverkar omgivningen och grannars ljus och insyn.[^3] Ett vanligt, normalutfört staket och en häck kräver i regel inget bygglov alls, oavsett var på tomten de står.[^2]
+Vilken kategori en konstruktion hamnar i avgörs inte bara av höjden utan av en helhetsbedömning där byggnadsnämnden även väger in längd, genomskinlighet, utformning i övrigt, läge, hur konstruktionen påverkar omgivningen och vad den ska användas till.[^16] Ett vanligt, normalutfört staket och en häck kräver i regel inget bygglov, men kommunen kan göra undantag bland annat inom områden med särskilt kulturhistoriskt värde.[^2][^13]
 
 Två andra begrepp du behöver känna till:
 
@@ -35,7 +35,7 @@ Den 1 december 2025 trädde en genomgripande reform av PBL i kraft (lag 2025:974
 
 Vill du bygga stödmur och samtidigt höja eller sänka markens nivå kan du utöver bygglovet för själva muren också behöva **marklov**. Inom detaljplan krävs marklov för schaktning eller fyllning som ändrar markens höjdläge med mer än 0,5 meter, om inte åtgärden bara återställer marken till den nivå som redan är bestämd i detaljplanen.[^9] Ska schaktningen eller fyllningen göras som en förberedelse till en bygglovspliktig åtgärd – till exempel just en bygglovspliktig stödmur – prövas markfrågan i stället inom bygglovet, och den färdiga marknivån ska redovisas i bygglovsritningarna.[^9]
 
-Slutligen gäller civilrättsliga regler parallellt med PBL. Enligt jordabalkens grannelagsregler ska den som äger eller använder en fastighet ta skälig hänsyn till omgivningen.[^7] Du har i grunden rätt att bygga ett staket eller plank ända fram till din egen tomtgräns, så länge du inte skadar grannens egendom eller orsakar en betydande olägenhet, men själva byggnadsverket ska i första hand stå på din egen mark.[^1] Vill ni istället äga och underhålla ett staket gemensamt är det klokt att skriva ett samäganderättsavtal som reglerar kostnader, skötsel och vad som händer om någon vill ändra eller ta bort det.[^1]
+Slutligen gäller civilrättsliga regler parallellt med PBL. Enligt jordabalkens grannelagsregel i 3 kap. 1 § ska var och en vid nyttjande av sin eller annans fasta egendom ta skälig hänsyn till omgivningen.[^7][^17] Du har i grunden rätt att bygga ett staket eller plank ända fram till din egen tomtgräns, så länge du inte skadar grannens egendom eller orsakar en betydande olägenhet, men själva byggnadsverket ska i första hand stå på din egen mark.[^1] Vill ni istället äga och underhålla ett staket gemensamt är det klokt att skriva ett samäganderättsavtal som reglerar kostnader, skötsel och vad som händer om någon vill ändra eller ta bort det.[^1]
 
 ## Praktisk vägledning
 <!-- nivå: mellan -->
@@ -61,7 +61,7 @@ En stödmur är mer än en avgränsning – den är en bärande konstruktion som
 
 **Marklov och bygglov i kombination.** Eftersom en stödmur nästan alltid uppstår för att hantera en nivåskillnad, kan du behöva både bygglov för själva muren enligt PBL:s höjd- och avståndsregler och marklov för markarbetet enligt 0,5-metersregeln, om åtgärderna inte redan prövas samlat inom en bygglovsansökan.[^9] Den färdiga marknivån, inklusive murens topp- och sockelhöjd i förhållande till både befintlig och ny mark, ska framgå tydligt av ritningarna.[^2][^9]
 
-**Träskydd för staket och plank.** Väljer du trä är träskyddsklassen avgörande för hållbarheten: stolpar i markkontakt bör ha den kraftigare klassen NTR A, medan reglar och brädor ovan mark klarar sig med NTR B.[^14] Ska tryckimpregnerat virke ytbehandlas är torkning den enskilt viktigaste förutsättningen – ytfuktkvoten får inte överstiga 16 procent innan du målar eller oljar, annars riskerar behandlingen att flagna eller inte fästa alls.[^14]
+**Träskydd för staket och plank.** Väljer du trä är träskyddsklassen avgörande för hållbarheten: stolpar och stängselstolpar i markkontakt bör ha den kraftigare klassen NTR A, medan staket, plank och annat virke ovan mark klarar sig med NTR AB.[^15] Ska tryckimpregnerat virke ytbehandlas är torkning den enskilt viktigaste förutsättningen – ytfuktkvoten får inte överstiga 16 procent innan du målar eller oljar, annars riskerar behandlingen att flagna eller inte fästa alls.[^14]
 
 ## Underhållsschema
 
@@ -105,3 +105,6 @@ För stödmurar över cirka en meter, i lutande terräng, i lerjord eller nära 
 12. [S:t Eriks — Bygga mur med betongblock](https://steriks.se/blogg/bygga-mur/)
 13. [Haninge kommun — Förändringar i plan- och bygglagen, nya regler från 1 december](https://www.haninge.se/bygga-trafik-och-miljo/bygga-nytt-andra-riva/forandringar-i-plan-och-bygglagen-nya-regler-fran-1-december/)
 14. [TräGuiden (Svenskt Trä) — Ytbehandling av impregnerat virke](https://www.traguiden.se/underhall/ytbehandling-och-underhall/traskydd/traskydd/ytbehandling-av-impregnerat-virke/)
+15. [TräGuiden (Svenskt Trä) — Träskyddsklasser](https://www.traguiden.se/om-tra/materialet-tra/kemisk-behandling/kemisk-behandling/traskyddsklasser/)
+16. [Härryda kommun — Mur, plank, staket, inhägnad](https://www.harryda.se/byggaboochmiljo/bygganyttandraellerriva/bygglovsguide/guidetillolikabyggprojekt/murplankstaketinhagnad.4.c0a4fce181800179102617.html)
+17. [Sveriges riksdag — Jordabalk (1970:994), 3 kap. 1 §](https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/jordabalk-1970994_sfs-1970-994/)
