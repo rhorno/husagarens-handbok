@@ -80,7 +80,7 @@ Grundläggande verktygsanvändning – att mäta, borra, skruva och slå – är
 ## Källor
 1. [Arbetsmiljöverket — Stegar och arbetsbockar](https://www.av.se/produktion-industri-och-logistik/anvandning-av-arbetsutrustning/stegar-och-arbetsbockar/)
 2. [Arbetsmiljöverket — Produkter – Stegar, ställningar och viss annan utrustning för arbete på höjd, samt vissa trycksatta anordningar (AFS 2023:9)](https://www.av.se/arbetsmiljoarbete-och-inspektioner/publikationer/foreskrifter/afs-20239/)
-3. [Werner — Standarden EN131](https://www.wernerco.com/se/faq/en131)
+3. [Ladder Association (BLMA) — EN 131, the current Ladder Standard](https://ladderassociation.org.uk/en131/)
 4. [Elsäkerhetsverket — CE-märket på elprodukter](https://www.elsakerhetsverket.se/privatpersoner/dina-elprodukter/krav-och-markning-pa-elprodukter/ce-market-pa-elprodukter/)
 5. [Konsumentverket — Reklamationsrätt – så här reklamerar du en felaktig vara](https://www.konsumentverket.se/konsumentratt-process/reklamera-vara/)
 6. [Strålsäkerhetsmyndigheten — Laserklasser](https://www.stralsakerhetsmyndigheten.se/omraden/laser/om-laser/laserklasser/)
