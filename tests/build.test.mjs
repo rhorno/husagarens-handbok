@@ -214,3 +214,29 @@ test('relaterade defaults to [] when crossrefs has no relationer key', () => {
     assert.deepEqual(amne.relaterade, []);
   }
 });
+
+test('relaterade ignores a self-reference', () => {
+  const crossrefs = { relationer: { a: ['a', 'b'] } };
+  const data = buildData(REL_MANIFEST, relFiles(), crossrefs);
+  const byId = Object.fromEntries(data.amnen.map((a) => [a.id, a]));
+  // 'a' listing itself must not produce a self-link; only the real relation to 'b' survives
+  assert.deepEqual(byId.a.relaterade, [{ id: 'b', titel: 'B' }]);
+  assert.deepEqual(byId.b.relaterade, [{ id: 'a', titel: 'A' }]);
+});
+
+test('relaterade de-duplicates repeated ids', () => {
+  const crossrefs = { relationer: { a: ['b', 'b', 'b'] } };
+  const data = buildData(REL_MANIFEST, relFiles(), crossrefs);
+  const byId = Object.fromEntries(data.amnen.map((a) => [a.id, a]));
+  // a repeated 'b' collapses to a single entry
+  assert.deepEqual(byId.a.relaterade, [{ id: 'b', titel: 'B' }]);
+});
+
+test('relaterade de-duplicates when both directions list the same pair', () => {
+  const crossrefs = { relationer: { a: ['b'], b: ['a'] } };
+  const data = buildData(REL_MANIFEST, relFiles(), crossrefs);
+  const byId = Object.fromEntries(data.amnen.map((a) => [a.id, a]));
+  // a<->b declared from both sides must not produce duplicate entries
+  assert.deepEqual(byId.a.relaterade, [{ id: 'b', titel: 'B' }]);
+  assert.deepEqual(byId.b.relaterade, [{ id: 'a', titel: 'A' }]);
+});
