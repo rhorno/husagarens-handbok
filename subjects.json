@@ -1,64 +1,784 @@
 {
   "kategorier": [
-    {"id": "ekonomi-juridik", "titel": "Ekonomi & juridik"},
-    {"id": "husets-skal", "titel": "Husets skal & konstruktion"},
-    {"id": "installationer", "titel": "Installationer"},
-    {"id": "inomhus", "titel": "Inomhus"},
-    {"id": "utomhus-tradgard", "titel": "Utomhus & trädgård"},
-    {"id": "teknik-sakerhet", "titel": "Teknik & säkerhet"},
-    {"id": "drift-rutiner", "titel": "Drift & rutiner"}
+    {
+      "id": "ekonomi-juridik",
+      "titel": "Ekonomi & juridik"
+    },
+    {
+      "id": "husets-skal",
+      "titel": "Husets skal & konstruktion"
+    },
+    {
+      "id": "installationer",
+      "titel": "Installationer"
+    },
+    {
+      "id": "inomhus",
+      "titel": "Inomhus"
+    },
+    {
+      "id": "utomhus-tradgard",
+      "titel": "Utomhus & trädgård"
+    },
+    {
+      "id": "teknik-sakerhet",
+      "titel": "Teknik & säkerhet"
+    },
+    {
+      "id": "drift-rutiner",
+      "titel": "Drift & rutiner"
+    }
   ],
   "amnen": [
-    {"id": "bolan-rantor", "titel": "Bolån & räntor", "kategori": "ekonomi-juridik", "nyckelord": ["amortering", "bindningstid", "belåningsgrad", "ränteavdrag"]},
-    {"id": "forsakringar", "titel": "Försäkringar", "kategori": "ekonomi-juridik", "nyckelord": ["villahemförsäkring", "drulle", "självrisk", "skadeanmälan", "åldersavdrag"]},
-    {"id": "skatter-avdrag", "titel": "Skatter & avdrag", "kategori": "ekonomi-juridik", "nyckelord": ["fastighetsavgift", "ROT", "RUT", "uppskov", "reavinst", "deklaration"]},
-    {"id": "kopa-salja-hus", "titel": "Köpa & sälja hus", "kategori": "ekonomi-juridik", "nyckelord": ["besiktning", "undersökningsplikt", "dolda fel", "budgivning", "kontrakt"]},
-    {"id": "lagfart-pantbrev", "titel": "Lagfart & pantbrev", "kategori": "ekonomi-juridik", "nyckelord": ["stämpelskatt", "inteckning", "Lantmäteriet"]},
-    {"id": "bygglov-attefall", "titel": "Bygglov, anmälan & attefallsregler", "kategori": "ekonomi-juridik", "nyckelord": ["bygglov", "attefallshus", "friggebod", "anmälan", "startbesked", "slutbesked"]},
-    {"id": "grannjuridik", "titel": "Grannjuridik", "kategori": "ekonomi-juridik", "nyckelord": ["tomtgräns", "häck", "servitut", "ledningsrätt", "störningar"]},
-    {"id": "samfalligheter", "titel": "Samfälligheter & vägföreningar", "kategori": "ekonomi-juridik", "nyckelord": ["samfällighetsförening", "gemensamhetsanläggning", "vägförening", "andelstal"]},
-    {"id": "anlita-hantverkare", "titel": "Anlita hantverkare", "kategori": "ekonomi-juridik", "nyckelord": ["offert", "hantverkarformuläret", "konsumenttjänstlagen", "tvist", "ARN"]},
-    {"id": "uthyrning", "titel": "Uthyrning av bostad", "kategori": "ekonomi-juridik", "nyckelord": ["hyra ut", "attefallare", "skatt hyresintäkt", "hyreskontrakt", "privatuthyrningslagen"]},
-    {"id": "tak", "titel": "Tak", "kategori": "husets-skal", "nyckelord": ["takpannor", "plåttak", "hängrännor", "taksäkerhet", "snörasskydd", "takläcka"]},
-    {"id": "fasad-malning", "titel": "Fasad & utvändig målning", "kategori": "husets-skal", "nyckelord": ["träfasad", "puts", "slamfärg", "rödfärg", "panel", "fasadtvätt"]},
-    {"id": "fonster-dorrar", "titel": "Fönster & dörrar", "kategori": "husets-skal", "nyckelord": ["fönsterrenovering", "tätningslister", "U-värde", "kondens", "dörrjustering"]},
-    {"id": "grund-dranering", "titel": "Grund & dränering", "kategori": "husets-skal", "nyckelord": ["krypgrund", "källare", "platta på mark", "dränering", "fuktskada", "torpargrund"]},
-    {"id": "isolering-vind", "titel": "Isolering & vind", "kategori": "husets-skal", "nyckelord": ["tilläggsisolering", "lösull", "vindsbjälklag", "ångspärr", "köldbryggor"]},
-    {"id": "fukt-mogel-radon", "titel": "Fukt, mögel & radon", "kategori": "husets-skal", "nyckelord": ["fuktmätning", "mögelsanering", "radonmätning", "radonbidrag", "luftfuktighet"]},
-    {"id": "skadedjur", "titel": "Skadedjur", "kategori": "husets-skal", "nyckelord": ["möss", "råttor", "myror", "getingar", "husbock", "hästmyra", "sanering"]},
-    {"id": "el-elsakerhet", "titel": "El & elsäkerhet", "kategori": "installationer", "nyckelord": ["elmätare", "elcentral", "jordfelsbrytare", "säkringar", "behörighet", "trefas", "huvudsäkring"]},
-    {"id": "vvs-vatten-avlopp", "titel": "VVS — vatten & avlopp", "kategori": "installationer", "nyckelord": ["avstängningsventil", "vattenlås", "stopp i avlopp", "vattenskada", "golvbrunn", "servisventil"]},
-    {"id": "uppvarmning", "titel": "Uppvärmning", "kategori": "installationer", "nyckelord": ["värmepump", "bergvärme", "fjärrvärme", "pellets", "radiatorer", "golvvärme", "COP"]},
-    {"id": "ventilation", "titel": "Ventilation", "kategori": "installationer", "nyckelord": ["självdrag", "frånluft", "FTX", "OVK", "filterbyte", "luftflöde"]},
-    {"id": "eldstader-sotning", "titel": "Eldstäder & sotning", "kategori": "installationer", "nyckelord": ["braskamin", "skorsten", "sotning", "brandskyddskontroll", "eldningsförbud", "ved"]},
-    {"id": "enskilt-avlopp-brunn", "titel": "Enskilt avlopp & egen brunn", "kategori": "installationer", "nyckelord": ["trekammarbrunn", "infiltration", "slamtömning", "vattenprov", "borrad brunn"]},
-    {"id": "solceller", "titel": "Solceller", "kategori": "installationer", "nyckelord": ["växelriktare", "grön teknik", "skattereduktion", "mikroproduktion", "kWp", "batterilager"]},
-    {"id": "elbilsladdning", "titel": "Elbilsladdning", "kategori": "installationer", "nyckelord": ["laddbox", "lastbalansering", "typ 2", "grön teknik", "laddning hemma"]},
-    {"id": "reservkraft", "titel": "Generator & reservkraft", "kategori": "installationer", "nyckelord": ["elverk", "reservelverk", "inmatning", "manöveromkopplare", "strömavbrott"]},
-    {"id": "badrum-vatrum", "titel": "Badrum & våtrum", "kategori": "inomhus", "nyckelord": ["tätskikt", "branschregler", "GVK", "Byggkeramikrådet", "golvbrunn", "våtrumsintyg"]},
-    {"id": "kok-vitvaror", "titel": "Kök & vitvaror", "kategori": "inomhus", "nyckelord": ["diskmaskin", "vattenfelsbrytare", "fläktfilter", "kyl frys", "spis", "läckageskydd"]},
-    {"id": "golv-snickeri", "titel": "Golv & snickeri/träarbete", "kategori": "inomhus", "nyckelord": ["parkett", "trägolv", "slipning", "lister", "verktyg", "virke", "träslag"]},
-    {"id": "invandig-malning", "titel": "Invändig målning & tapetsering", "kategori": "inomhus", "nyckelord": ["grundfärg", "täckfärg", "spackling", "tapetsering", "våtrumsfärg", "glans"]},
-    {"id": "bastu", "titel": "Bastu", "kategori": "inomhus", "nyckelord": ["bastuaggregat", "vedeldad bastu", "bastupanel", "säkerhetsavstånd"]},
-    {"id": "grasmatta-vegetation", "titel": "Gräsmatta & vegetation", "kategori": "utomhus-tradgard", "nyckelord": ["gräsklippning", "gödsling", "mossa", "kalkning", "häckklippning", "ogräs"]},
-    {"id": "trad-beskarning", "titel": "Träd & beskärning", "kategori": "utomhus-tradgard", "nyckelord": ["beskärningstid", "JAS", "trädfällning", "marklov", "arborist", "fruktträd"]},
-    {"id": "tradgardsodling", "titel": "Trädgårdsodling", "kategori": "utomhus-tradgard", "nyckelord": ["odlingszon", "kompost", "grönsaksland", "pallkrage", "förkultivering"]},
-    {"id": "vaxthus-odling", "titel": "Växthus & avancerad odling", "kategori": "utomhus-tradgard", "nyckelord": ["växthus", "uppdrivning", "tomat", "bevattning", "övervintring"]},
-    {"id": "altan-tradack", "titel": "Altan, uteplats & trädäck", "kategori": "utomhus-tradgard", "nyckelord": ["trall", "bygglov altan", "tryckimpregnerat", "träolja", "reglar", "plintar"]},
-    {"id": "staket-murar", "titel": "Staket, murar & plank", "kategori": "utomhus-tradgard", "nyckelord": ["staket höjd", "plank bygglov", "stödmur", "grannemedgivande"]},
-    {"id": "snorojning", "titel": "Snöröjning & halkbekämpning", "kategori": "utomhus-tradgard", "nyckelord": ["snöskottning", "ansvar trottoar", "sandning", "istappar", "snörasskydd"]},
-    {"id": "pool-spabad", "titel": "Pool & spabad", "kategori": "utomhus-tradgard", "nyckelord": ["klor", "pH", "poolskydd", "barnsäkerhet", "vinterstängning", "spabad"]},
-    {"id": "garage-forrad", "titel": "Garage, carport & förråd", "kategori": "utomhus-tradgard", "nyckelord": ["garageport", "carport bygglov", "förvaring", "motorvärmare"]},
-    {"id": "sjotomt-brygga", "titel": "Sjötomt & brygga", "kategori": "utomhus-tradgard", "nyckelord": ["strandskydd", "brygga tillstånd", "vattenverksamhet", "sjöbod"]},
-    {"id": "fritidshus", "titel": "Fritidshus", "kategori": "utomhus-tradgard", "nyckelord": ["vinterstängning", "frostskydd", "vattenavstängning", "fritidshusförsäkring", "tillsyn"]},
-    {"id": "tv-bredband", "titel": "TV, bredband & internet", "kategori": "teknik-sakerhet", "nyckelord": ["fiber", "router", "mesh", "wifi", "felsökning", "tjänsteleverantör", "stadsnät"]},
-    {"id": "smarta-hem", "titel": "Smarta hem", "kategori": "teknik-sakerhet", "nyckelord": ["Zigbee", "Z-Wave", "Matter", "Home Assistant", "smarta lås", "sensorer", "automation"]},
-    {"id": "hemlarm-inbrottsskydd", "titel": "Hemlarm & inbrottsskydd", "kategori": "teknik-sakerhet", "nyckelord": ["inbrottslarm", "kamerabevakning", "grannsamverkan", "lås SSF", "skalskydd"]},
-    {"id": "brandskydd", "titel": "Brandskydd", "kategori": "teknik-sakerhet", "nyckelord": ["brandvarnare", "brandsläckare", "brandfilt", "utrymningsplan", "spisvakt"]},
-    {"id": "energibesparing-elavtal", "titel": "Energibesparing & elavtal", "kategori": "drift-rutiner", "nyckelord": ["elområde", "rörligt pris", "fastpris", "timpris", "effekttariff", "energideklaration"]},
-    {"id": "arshjul-underhall", "titel": "Årshjul — underhållskalender", "kategori": "drift-rutiner", "nyckelord": ["vår", "sommar", "höst", "vinter", "checklista", "underhållsplan"]},
-    {"id": "verktygslada", "titel": "Verktygslådan", "kategori": "drift-rutiner", "nyckelord": ["verktyg", "grunduppsättning", "skruvdragare", "mätverktyg", "stege säkerhet"]},
-    {"id": "sophantering", "titel": "Sophantering & återvinning", "kategori": "drift-rutiner", "nyckelord": ["källsortering", "återvinningscentral", "farligt avfall", "kompost", "grovsopor"]},
-    {"id": "hemberedskap", "titel": "Hemberedskap", "kategori": "drift-rutiner", "nyckelord": ["MSB", "72 timmar", "krislåda", "vattenförråd", "strömavbrott", "krisinformation"]}
+    {
+      "id": "bolan-rantor",
+      "titel": "Bolån & räntor",
+      "kategori": "ekonomi-juridik",
+      "nyckelord": [
+        "amortering",
+        "bindningstid",
+        "belåningsgrad",
+        "ränteavdrag"
+      ]
+    },
+    {
+      "id": "forsakringar",
+      "titel": "Försäkringar",
+      "kategori": "ekonomi-juridik",
+      "nyckelord": [
+        "villahemförsäkring",
+        "drulle",
+        "självrisk",
+        "skadeanmälan",
+        "åldersavdrag"
+      ]
+    },
+    {
+      "id": "skatter-avdrag",
+      "titel": "Skatter & avdrag",
+      "kategori": "ekonomi-juridik",
+      "nyckelord": [
+        "fastighetsavgift",
+        "ROT",
+        "RUT",
+        "uppskov",
+        "reavinst",
+        "deklaration"
+      ]
+    },
+    {
+      "id": "kopa-salja-hus",
+      "titel": "Köpa & sälja hus",
+      "kategori": "ekonomi-juridik",
+      "nyckelord": [
+        "besiktning",
+        "undersökningsplikt",
+        "dolda fel",
+        "budgivning",
+        "kontrakt"
+      ]
+    },
+    {
+      "id": "lagfart-pantbrev",
+      "titel": "Lagfart & pantbrev",
+      "kategori": "ekonomi-juridik",
+      "nyckelord": [
+        "stämpelskatt",
+        "inteckning",
+        "Lantmäteriet"
+      ]
+    },
+    {
+      "id": "bygglov-attefall",
+      "titel": "Bygglov, anmälan & attefallsregler",
+      "kategori": "ekonomi-juridik",
+      "nyckelord": [
+        "bygglov",
+        "attefallshus",
+        "friggebod",
+        "anmälan",
+        "startbesked",
+        "slutbesked"
+      ]
+    },
+    {
+      "id": "grannjuridik",
+      "titel": "Grannjuridik",
+      "kategori": "ekonomi-juridik",
+      "nyckelord": [
+        "tomtgräns",
+        "häck",
+        "servitut",
+        "ledningsrätt",
+        "störningar"
+      ]
+    },
+    {
+      "id": "samfalligheter",
+      "titel": "Samfälligheter & vägföreningar",
+      "kategori": "ekonomi-juridik",
+      "nyckelord": [
+        "samfällighetsförening",
+        "gemensamhetsanläggning",
+        "vägförening",
+        "andelstal"
+      ]
+    },
+    {
+      "id": "anlita-hantverkare",
+      "titel": "Anlita hantverkare",
+      "kategori": "ekonomi-juridik",
+      "nyckelord": [
+        "offert",
+        "hantverkarformuläret",
+        "konsumenttjänstlagen",
+        "tvist",
+        "ARN"
+      ]
+    },
+    {
+      "id": "uthyrning",
+      "titel": "Uthyrning av bostad",
+      "kategori": "ekonomi-juridik",
+      "nyckelord": [
+        "hyra ut",
+        "attefallare",
+        "skatt hyresintäkt",
+        "hyreskontrakt",
+        "privatuthyrningslagen"
+      ]
+    },
+    {
+      "id": "bostadsanpassning",
+      "titel": "Bostadsanpassning & tillgänglighet",
+      "kategori": "ekonomi-juridik",
+      "nyckelord": [
+        "bostadsanpassningsbidrag",
+        "tillgänglighet",
+        "ramp",
+        "trapphiss",
+        "tröskel",
+        "badrumsanpassning"
+      ]
+    },
+    {
+      "id": "tak",
+      "titel": "Tak",
+      "kategori": "husets-skal",
+      "nyckelord": [
+        "takpannor",
+        "plåttak",
+        "hängrännor",
+        "taksäkerhet",
+        "snörasskydd",
+        "takläcka"
+      ]
+    },
+    {
+      "id": "fasad-malning",
+      "titel": "Fasad & utvändig målning",
+      "kategori": "husets-skal",
+      "nyckelord": [
+        "träfasad",
+        "puts",
+        "slamfärg",
+        "rödfärg",
+        "panel",
+        "fasadtvätt"
+      ]
+    },
+    {
+      "id": "fonster-dorrar",
+      "titel": "Fönster & dörrar",
+      "kategori": "husets-skal",
+      "nyckelord": [
+        "fönsterrenovering",
+        "tätningslister",
+        "U-värde",
+        "kondens",
+        "dörrjustering"
+      ]
+    },
+    {
+      "id": "grund-dranering",
+      "titel": "Grund & dränering",
+      "kategori": "husets-skal",
+      "nyckelord": [
+        "krypgrund",
+        "källare",
+        "platta på mark",
+        "dränering",
+        "fuktskada",
+        "torpargrund"
+      ]
+    },
+    {
+      "id": "isolering-vind",
+      "titel": "Isolering & vind",
+      "kategori": "husets-skal",
+      "nyckelord": [
+        "tilläggsisolering",
+        "lösull",
+        "vindsbjälklag",
+        "ångspärr",
+        "köldbryggor"
+      ]
+    },
+    {
+      "id": "fukt-mogel-radon",
+      "titel": "Fukt, mögel & radon",
+      "kategori": "husets-skal",
+      "nyckelord": [
+        "fuktmätning",
+        "mögelsanering",
+        "radonmätning",
+        "radonbidrag",
+        "luftfuktighet"
+      ]
+    },
+    {
+      "id": "skadedjur",
+      "titel": "Skadedjur",
+      "kategori": "husets-skal",
+      "nyckelord": [
+        "möss",
+        "råttor",
+        "myror",
+        "getingar",
+        "husbock",
+        "hästmyra",
+        "sanering"
+      ]
+    },
+    {
+      "id": "farliga-material",
+      "titel": "Farliga material (asbest, PCB & blyfärg)",
+      "kategori": "husets-skal",
+      "nyckelord": [
+        "asbest",
+        "PCB",
+        "blyfärg",
+        "eternit",
+        "sanering",
+        "provtagning",
+        "Arbetsmiljöverket",
+        "rivning"
+      ]
+    },
+    {
+      "id": "dagvatten-oversvamning",
+      "titel": "Dagvatten & översvämningsskydd",
+      "kategori": "husets-skal",
+      "nyckelord": [
+        "dagvatten",
+        "skyfall",
+        "översvämning",
+        "backventil",
+        "höjdsättning",
+        "regnbädd",
+        "LOD",
+        "avrinning"
+      ]
+    },
+    {
+      "id": "byggnadsvard",
+      "titel": "Kulturhistoriska hus & byggnadsvård",
+      "kategori": "husets-skal",
+      "nyckelord": [
+        "byggnadsvård",
+        "q-märkning",
+        "k-märkning",
+        "kulturhistoriskt",
+        "varsamhetskrav",
+        "förvanskning",
+        "PBL",
+        "renovering"
+      ]
+    },
+    {
+      "id": "buller-ljudisolering",
+      "titel": "Buller & ljudisolering",
+      "kategori": "husets-skal",
+      "nyckelord": [
+        "buller",
+        "ljudisolering",
+        "stegljud",
+        "ljudklass",
+        "ljudreduktion",
+        "akustik",
+        "väggkonstruktion"
+      ]
+    },
+    {
+      "id": "el-elsakerhet",
+      "titel": "El & elsäkerhet",
+      "kategori": "installationer",
+      "nyckelord": [
+        "elmätare",
+        "elcentral",
+        "jordfelsbrytare",
+        "säkringar",
+        "behörighet",
+        "trefas",
+        "huvudsäkring"
+      ]
+    },
+    {
+      "id": "vvs-vatten-avlopp",
+      "titel": "VVS — vatten & avlopp",
+      "kategori": "installationer",
+      "nyckelord": [
+        "avstängningsventil",
+        "vattenlås",
+        "stopp i avlopp",
+        "vattenskada",
+        "golvbrunn",
+        "servisventil"
+      ]
+    },
+    {
+      "id": "uppvarmning",
+      "titel": "Uppvärmning",
+      "kategori": "installationer",
+      "nyckelord": [
+        "värmepump",
+        "bergvärme",
+        "fjärrvärme",
+        "pellets",
+        "radiatorer",
+        "golvvärme",
+        "COP"
+      ]
+    },
+    {
+      "id": "ventilation",
+      "titel": "Ventilation",
+      "kategori": "installationer",
+      "nyckelord": [
+        "självdrag",
+        "frånluft",
+        "FTX",
+        "OVK",
+        "filterbyte",
+        "luftflöde"
+      ]
+    },
+    {
+      "id": "eldstader-sotning",
+      "titel": "Eldstäder & sotning",
+      "kategori": "installationer",
+      "nyckelord": [
+        "braskamin",
+        "skorsten",
+        "sotning",
+        "brandskyddskontroll",
+        "eldningsförbud",
+        "ved"
+      ]
+    },
+    {
+      "id": "enskilt-avlopp-brunn",
+      "titel": "Enskilt avlopp & egen brunn",
+      "kategori": "installationer",
+      "nyckelord": [
+        "trekammarbrunn",
+        "infiltration",
+        "slamtömning",
+        "vattenprov",
+        "borrad brunn"
+      ]
+    },
+    {
+      "id": "solceller",
+      "titel": "Solceller",
+      "kategori": "installationer",
+      "nyckelord": [
+        "växelriktare",
+        "grön teknik",
+        "skattereduktion",
+        "mikroproduktion",
+        "kWp",
+        "batterilager"
+      ]
+    },
+    {
+      "id": "elbilsladdning",
+      "titel": "Elbilsladdning",
+      "kategori": "installationer",
+      "nyckelord": [
+        "laddbox",
+        "lastbalansering",
+        "typ 2",
+        "grön teknik",
+        "laddning hemma"
+      ]
+    },
+    {
+      "id": "reservkraft",
+      "titel": "Generator & reservkraft",
+      "kategori": "installationer",
+      "nyckelord": [
+        "elverk",
+        "reservelverk",
+        "inmatning",
+        "manöveromkopplare",
+        "strömavbrott"
+      ]
+    },
+    {
+      "id": "utomhusbelysning",
+      "titel": "Utomhusbelysning & utomhusel",
+      "kategori": "installationer",
+      "nyckelord": [
+        "utomhusbelysning",
+        "trädgårdsel",
+        "IP-klass",
+        "markkabel",
+        "utomhusuttag",
+        "motorvärmare",
+        "jordfelsbrytare",
+        "lågvolt"
+      ]
+    },
+    {
+      "id": "kommunalt-va",
+      "titel": "Kommunalt VA — anslutning & avgifter",
+      "kategori": "installationer",
+      "nyckelord": [
+        "kommunalt vatten",
+        "VA-anslutning",
+        "servisledning",
+        "anslutningsavgift",
+        "förbindelsepunkt",
+        "VA-taxa"
+      ]
+    },
+    {
+      "id": "badrum-vatrum",
+      "titel": "Badrum & våtrum",
+      "kategori": "inomhus",
+      "nyckelord": [
+        "tätskikt",
+        "branschregler",
+        "GVK",
+        "Byggkeramikrådet",
+        "golvbrunn",
+        "våtrumsintyg"
+      ]
+    },
+    {
+      "id": "kok-vitvaror",
+      "titel": "Kök & vitvaror",
+      "kategori": "inomhus",
+      "nyckelord": [
+        "diskmaskin",
+        "vattenfelsbrytare",
+        "fläktfilter",
+        "kyl frys",
+        "spis",
+        "läckageskydd"
+      ]
+    },
+    {
+      "id": "golv-snickeri",
+      "titel": "Golv & snickeri/träarbete",
+      "kategori": "inomhus",
+      "nyckelord": [
+        "parkett",
+        "trägolv",
+        "slipning",
+        "lister",
+        "verktyg",
+        "virke",
+        "träslag"
+      ]
+    },
+    {
+      "id": "invandig-malning",
+      "titel": "Invändig målning & tapetsering",
+      "kategori": "inomhus",
+      "nyckelord": [
+        "grundfärg",
+        "täckfärg",
+        "spackling",
+        "tapetsering",
+        "våtrumsfärg",
+        "glans"
+      ]
+    },
+    {
+      "id": "bastu",
+      "titel": "Bastu",
+      "kategori": "inomhus",
+      "nyckelord": [
+        "bastuaggregat",
+        "vedeldad bastu",
+        "bastupanel",
+        "säkerhetsavstånd"
+      ]
+    },
+    {
+      "id": "grasmatta-vegetation",
+      "titel": "Gräsmatta & vegetation",
+      "kategori": "utomhus-tradgard",
+      "nyckelord": [
+        "gräsklippning",
+        "gödsling",
+        "mossa",
+        "kalkning",
+        "häckklippning",
+        "ogräs"
+      ]
+    },
+    {
+      "id": "trad-beskarning",
+      "titel": "Träd & beskärning",
+      "kategori": "utomhus-tradgard",
+      "nyckelord": [
+        "beskärningstid",
+        "JAS",
+        "trädfällning",
+        "marklov",
+        "arborist",
+        "fruktträd"
+      ]
+    },
+    {
+      "id": "tradgardsodling",
+      "titel": "Trädgårdsodling",
+      "kategori": "utomhus-tradgard",
+      "nyckelord": [
+        "odlingszon",
+        "kompost",
+        "grönsaksland",
+        "pallkrage",
+        "förkultivering"
+      ]
+    },
+    {
+      "id": "vaxthus-odling",
+      "titel": "Växthus & avancerad odling",
+      "kategori": "utomhus-tradgard",
+      "nyckelord": [
+        "växthus",
+        "uppdrivning",
+        "tomat",
+        "bevattning",
+        "övervintring"
+      ]
+    },
+    {
+      "id": "altan-tradack",
+      "titel": "Altan, uteplats & trädäck",
+      "kategori": "utomhus-tradgard",
+      "nyckelord": [
+        "trall",
+        "bygglov altan",
+        "tryckimpregnerat",
+        "träolja",
+        "reglar",
+        "plintar"
+      ]
+    },
+    {
+      "id": "staket-murar",
+      "titel": "Staket, murar & plank",
+      "kategori": "utomhus-tradgard",
+      "nyckelord": [
+        "staket höjd",
+        "plank bygglov",
+        "stödmur",
+        "grannemedgivande"
+      ]
+    },
+    {
+      "id": "snorojning",
+      "titel": "Snöröjning & halkbekämpning",
+      "kategori": "utomhus-tradgard",
+      "nyckelord": [
+        "snöskottning",
+        "ansvar trottoar",
+        "sandning",
+        "istappar",
+        "snörasskydd"
+      ]
+    },
+    {
+      "id": "pool-spabad",
+      "titel": "Pool & spabad",
+      "kategori": "utomhus-tradgard",
+      "nyckelord": [
+        "klor",
+        "pH",
+        "poolskydd",
+        "barnsäkerhet",
+        "vinterstängning",
+        "spabad"
+      ]
+    },
+    {
+      "id": "garage-forrad",
+      "titel": "Garage, carport & förråd",
+      "kategori": "utomhus-tradgard",
+      "nyckelord": [
+        "garageport",
+        "carport bygglov",
+        "förvaring",
+        "motorvärmare"
+      ]
+    },
+    {
+      "id": "sjotomt-brygga",
+      "titel": "Sjötomt & brygga",
+      "kategori": "utomhus-tradgard",
+      "nyckelord": [
+        "strandskydd",
+        "brygga tillstånd",
+        "vattenverksamhet",
+        "sjöbod"
+      ]
+    },
+    {
+      "id": "fritidshus",
+      "titel": "Fritidshus",
+      "kategori": "utomhus-tradgard",
+      "nyckelord": [
+        "vinterstängning",
+        "frostskydd",
+        "vattenavstängning",
+        "fritidshusförsäkring",
+        "tillsyn"
+      ]
+    },
+    {
+      "id": "markarbete",
+      "titel": "Markarbete — uppfart, plattsättning & stenläggning",
+      "kategori": "utomhus-tradgard",
+      "nyckelord": [
+        "marksten",
+        "plattsättning",
+        "uppfart",
+        "bärlager",
+        "stenmjöl",
+        "grus",
+        "markplanering",
+        "kantsten"
+      ]
+    },
+    {
+      "id": "tv-bredband",
+      "titel": "TV, bredband & internet",
+      "kategori": "teknik-sakerhet",
+      "nyckelord": [
+        "fiber",
+        "router",
+        "mesh",
+        "wifi",
+        "felsökning",
+        "tjänsteleverantör",
+        "stadsnät"
+      ]
+    },
+    {
+      "id": "smarta-hem",
+      "titel": "Smarta hem",
+      "kategori": "teknik-sakerhet",
+      "nyckelord": [
+        "Zigbee",
+        "Z-Wave",
+        "Matter",
+        "Home Assistant",
+        "smarta lås",
+        "sensorer",
+        "automation"
+      ]
+    },
+    {
+      "id": "hemlarm-inbrottsskydd",
+      "titel": "Hemlarm & inbrottsskydd",
+      "kategori": "teknik-sakerhet",
+      "nyckelord": [
+        "inbrottslarm",
+        "kamerabevakning",
+        "grannsamverkan",
+        "lås SSF",
+        "skalskydd"
+      ]
+    },
+    {
+      "id": "brandskydd",
+      "titel": "Brandskydd",
+      "kategori": "teknik-sakerhet",
+      "nyckelord": [
+        "brandvarnare",
+        "brandsläckare",
+        "brandfilt",
+        "utrymningsplan",
+        "spisvakt"
+      ]
+    },
+    {
+      "id": "energibesparing-elavtal",
+      "titel": "Energibesparing & elavtal",
+      "kategori": "drift-rutiner",
+      "nyckelord": [
+        "elområde",
+        "rörligt pris",
+        "fastpris",
+        "timpris",
+        "effekttariff",
+        "energideklaration"
+      ]
+    },
+    {
+      "id": "arshjul-underhall",
+      "titel": "Årshjul — underhållskalender",
+      "kategori": "drift-rutiner",
+      "nyckelord": [
+        "vår",
+        "sommar",
+        "höst",
+        "vinter",
+        "checklista",
+        "underhållsplan"
+      ]
+    },
+    {
+      "id": "verktygslada",
+      "titel": "Verktygslådan",
+      "kategori": "drift-rutiner",
+      "nyckelord": [
+        "verktyg",
+        "grunduppsättning",
+        "skruvdragare",
+        "mätverktyg",
+        "stege säkerhet"
+      ]
+    },
+    {
+      "id": "sophantering",
+      "titel": "Sophantering & återvinning",
+      "kategori": "drift-rutiner",
+      "nyckelord": [
+        "källsortering",
+        "återvinningscentral",
+        "farligt avfall",
+        "kompost",
+        "grovsopor"
+      ]
+    },
+    {
+      "id": "hemberedskap",
+      "titel": "Hemberedskap",
+      "kategori": "drift-rutiner",
+      "nyckelord": [
+        "MSB",
+        "72 timmar",
+        "krislåda",
+        "vattenförråd",
+        "strömavbrott",
+        "krisinformation"
+      ]
+    }
   ]
 }
