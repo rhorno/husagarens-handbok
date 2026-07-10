@@ -57,6 +57,8 @@ OVK-systemet delar in ventilationssystem i S (självdrag), F (frånluft), FX (fr
 
 Ur ett injusteringsperspektiv är FTX-system särskilt känsliga för obalans mellan till- och frånluftsflöden. Ett svagt undertryck på ungefär 5–10 pascal är i normalfallet det som eftersträvas i svenska bostäder, eftersom det drar luft inåt genom små otätheter istället för att trycka ut fuktig inneluft i konstruktionen.[^14] Ett feljusterat system som istället ger övertryck riskerar att över tid öka risken för fuktskador i väggar och vindsutrymmen. Tecken på fel tryckbalans kan vara dörrar som är svåra att stänga, drag, problem med öppna spisar, kondens eller ovanlig lukt.[^14]
 
+**Verkningsgrad och filterklasser i praktiken.** Ett väl fungerande FTX-aggregat når i drift en återvinningsgrad på ungefär 80–90 procent: plattvärmeväxlare ligger generellt i intervallet 60–90 procents verkningsgrad, med motströmskopplade växlare högst i det spannet, roterande värmeväxlare uppnår typiskt kring 80 procent, och branschens rekommendation vid nyinköp är att välja ett aggregat med minst 80–85 procents verkningsgrad.[^17] Sedan 2018 klassas ventilationsfilter enligt den internationella standarden ISO 16890 i partikelklasserna ePM1, ePM2,5 och ePM10, som mäter filtrets avskiljningsförmåga för olika partikelstorlekar i procent, i stället för de äldre EN 779-beteckningarna (G-, M- och F-klasser som G4, M5, F7 och F8).[^18] Som grov, ungefärlig vägledning motsvarar den tidigare klassen F7 ungefär ePM1 50 procent och M5 ungefär ePM10 60 procent.[^18] Branschorganisationen Svensk Ventilation påpekar dock att en exakt, direkt översättning mellan gamla och nya klasser inte är möjlig, eftersom ISO 16890 mäter fler prestandaparametrar än den äldre standarden gjorde.[^19]
+
 ## Underhållsschema
 
 | När | Vad | Hur ofta |
@@ -93,3 +95,6 @@ Installation, ombyggnad eller injustering av mekaniska ventilationssystem (F, FT
 14. [ventilation.se — Ska det vara övertryck eller undertryck i huset?](https://ventilation.se/sv/post/ska-det-vara-overtryck-eller-undertryck-i-huset)
 15. [Aerius Ventilation — Dags för en FTX-installation? Det här bör du veta](https://aerius.se/dags-for-en-ftx-installation/)
 16. [Svensk Ventilation — Boverkets föreskrifter](https://www.svenskventilation.se/lagar-regler/boverkets-foreskrifter/)
+17. [Svensk Ventilation — Värmeväxlare](https://www.svenskventilation.se/ventilation/varmevaxlare/)
+18. [IV Produkt — Vad innebär den nya filterstandarden ISO 16890?](https://www.ivprodukt.se/kunskap/filterstandard-iso-16890)
+19. [Svensk Ventilation — Nya filterklasser med ISO 16890](https://www.svenskventilation.se/2016/12/nya-filterklasser-med-iso-16890/)

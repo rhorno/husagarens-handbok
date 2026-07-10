@@ -25,7 +25,7 @@ Ett husköp går normalt igenom ett antal steg, oavsett om du köper via mäklar
 
 **5. Tillträde och köpebrev.** På tillträdesdagen får du nycklarna och betalar resterande köpeskilling. Då upprättas även ett köpebrev, som fungerar som ett kvitto på att du betalat och som du använder för att ansöka om lagfart.[^7][^11]
 
-**6. Lagfart och pantbrev.** Efter tillträdet ansöker du om lagfart hos Lantmäteriet för att registreras som ägare, och du betalar stämpelskatt. Behöver du nya pantbrev för att kunna låna på fastigheten kostar även det stämpelskatt.[^5]
+**6. Lagfart och pantbrev.** Efter tillträdet ansöker du om lagfart hos Lantmäteriet för att registreras som ägare, och du betalar stämpelskatt (en skatt du betalar till staten vid köpet, samt när du tar ut nya lån mot fastigheten). Behöver du nya pantbrev (skuldebrev kopplade till fastigheten som fungerar som säkerhet när du lånar mot husets värde) för att kunna låna på fastigheten kostar även det stämpelskatt.[^5]
 
 ## Regler & lagkrav
 

@@ -13,7 +13,7 @@ En pool eller ett spabad ger avkoppling nära hemmet, men följer med ett ansvar
 ## Grunderna
 <!-- nivå: nybörjare -->
 
-Om du är ny som poolägare är det bra att först lära dig grundbegreppen.
+Har du precis fått en pool är det viktigaste första steget en enkel rutin: kontrollera fritt klor och pH med ett testkit, se till att pump och filter faktiskt är igång, och skumma av löv och insekter från ytan – gör det dagligen den första tiden, och sikta sedan på minst ett par gånger i veckan under badsäsong.[^5] Utöver den rutinen är det bra att lära sig grundbegreppen.
 
 **Klor** är det ämne som bäst uppfyller kraven på ett effektivt desinfektionsmedel och är därför det dominerande medlet för att hålla bad- och poolvatten fritt från bakterier, virus och alger[^5]. Klor säljs som tabletter, granulat eller flytande klor och doseras kontinuerligt eller manuellt beroende på system.
 
