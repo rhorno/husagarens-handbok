@@ -1,0 +1,242 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { buildData } from '../build.mjs';
+import { renderMarkdown, stripToText } from '../build/markdown.mjs';
+
+const MANIFEST = {
+  kategorier: [
+    { id: 'husets-skal', titel: 'Husets skal & konstruktion' },
+    { id: 'inomhus', titel: 'Inomhus' },
+  ],
+  amnen: [
+    { id: 'tak', titel: 'Tak', kategori: 'husets-skal', nyckelord: ['takpannor', 'hängrännor'] },
+    { id: 'golv', titel: 'Golv', kategori: 'inomhus', nyckelord: ['parkett', 'klinker'] },
+  ],
+};
+
+function subjectMarkdown({ id, titel, kategori, nyckelord }) {
+  return `---
+id: ${id}
+titel: ${titel}
+kategori: ${kategori}
+nyckelord: [${nyckelord.join(', ')}]
+---
+# ${titel}
+
+## Översikt
+Text om ${titel}.[^1]
+
+## Grunderna
+<!-- nivå: nybörjare -->
+Grundtext.[^1]
+
+## Regler & lagkrav
+Regeltext.[^2]
+
+## Praktisk vägledning
+<!-- nivå: mellan -->
+Praktisk text.[^1]
+
+## Fördjupning
+<!-- nivå: avancerad -->
+Fördjupningstext.[^2]
+
+## Underhållsschema
+| När | Vad |
+| --- | --- |
+| Vår | Inspektera[^1] |
+
+## Vanliga misstag
+Misstagstext.[^2]
+
+## När ska du anlita proffs
+Proffstext.
+
+## Källor
+1. [Källa ett](https://example.com/1)
+2. [Källa två](https://example.com/2)
+`;
+}
+
+const TAK_RAW = subjectMarkdown({ id: 'tak', titel: 'Tak', kategori: 'husets-skal', nyckelord: ['takpannor', 'hängrännor'] });
+const GOLV_RAW = subjectMarkdown({ id: 'golv', titel: 'Golv', kategori: 'inomhus', nyckelord: ['parkett', 'klinker'] });
+
+function validFiles() {
+  return new Map([
+    ['golv', GOLV_RAW], // inserted out of manifest order on purpose
+    ['tak', TAK_RAW],
+  ]);
+}
+
+test('amnen follow manifest order regardless of file map insertion order', () => {
+  const data = buildData(MANIFEST, validFiles());
+  assert.deepEqual(data.amnen.map((a) => a.id), ['tak', 'golv']);
+});
+
+test('kategorier are passed through unchanged', () => {
+  const data = buildData(MANIFEST, validFiles());
+  assert.deepEqual(data.kategorier, MANIFEST.kategorier);
+});
+
+test('each amne carries id/titel/kategori/nyckelord from manifest', () => {
+  const data = buildData(MANIFEST, validFiles());
+  const tak = data.amnen.find((a) => a.id === 'tak');
+  assert.equal(tak.titel, 'Tak');
+  assert.equal(tak.kategori, 'husets-skal');
+  assert.deepEqual(tak.nyckelord, ['takpannor', 'hängrännor']);
+});
+
+test('each section has title, level, html, and text', () => {
+  const data = buildData(MANIFEST, validFiles());
+  const tak = data.amnen.find((a) => a.id === 'tak');
+  assert.equal(tak.sections.length, 9);
+  for (const section of tak.sections) {
+    assert.equal(typeof section.title, 'string');
+    assert.ok('level' in section);
+    assert.equal(typeof section.html, 'string');
+    assert.equal(typeof section.text, 'string');
+  }
+  const grunderna = tak.sections.find((s) => s.title === 'Grunderna');
+  assert.equal(grunderna.level, 'nybörjare');
+});
+
+test('section html/text come from renderMarkdown/stripToText applied to the section markdown', () => {
+  const data = buildData(MANIFEST, validFiles());
+  const tak = data.amnen.find((a) => a.id === 'tak');
+  const overview = tak.sections.find((s) => s.title === 'Översikt');
+  assert.equal(overview.html, renderMarkdown('Text om Tak.[^1]'));
+  assert.equal(overview.text, stripToText('Text om Tak.[^1]'));
+});
+
+test('sources array is present and correct', () => {
+  const data = buildData(MANIFEST, validFiles());
+  const tak = data.amnen.find((a) => a.id === 'tak');
+  assert.deepEqual(tak.sources, [
+    { n: 1, titel: 'Källa ett', url: 'https://example.com/1' },
+    { n: 2, titel: 'Källa två', url: 'https://example.com/2' },
+  ]);
+});
+
+test('Källor section is still included as a section object', () => {
+  const data = buildData(MANIFEST, validFiles());
+  const tak = data.amnen.find((a) => a.id === 'tak');
+  const kallor = tak.sections.find((s) => s.title === 'Källor');
+  assert.ok(kallor);
+  assert.equal(typeof kallor.html, 'string');
+  assert.equal(typeof kallor.text, 'string');
+});
+
+test('an invalid fixture makes buildData throw with the error listed', () => {
+  const invalid = TAK_RAW.replace('kategori: husets-skal\n', ''); // drop required frontmatter field
+  const files = new Map([
+    ['tak', invalid],
+    ['golv', GOLV_RAW],
+  ]);
+  assert.throws(
+    () => buildData(MANIFEST, files),
+    (err) => {
+      assert.ok(err instanceof Error);
+      assert.ok(/kategori/i.test(err.message));
+      return true;
+    }
+  );
+});
+
+test('throws listing errors across all invalid files, not just the first', () => {
+  const invalidTak = TAK_RAW.replace('kategori: husets-skal\n', '');
+  const invalidGolv = GOLV_RAW.replace('## Källor', '## Kallllor'); // breaks required section
+  const files = new Map([
+    ['tak', invalidTak],
+    ['golv', invalidGolv],
+  ]);
+  assert.throws(
+    () => buildData(MANIFEST, files),
+    (err) => {
+      assert.ok(/tak/.test(err.message));
+      assert.ok(/golv/.test(err.message));
+      return true;
+    }
+  );
+});
+
+// --- relaterade (cross-references) ---
+
+const REL_MANIFEST = {
+  kategorier: [{ id: 'k', titel: 'K' }],
+  amnen: [
+    { id: 'a', titel: 'A', kategori: 'k', nyckelord: ['x'] },
+    { id: 'b', titel: 'B', kategori: 'k', nyckelord: ['x'] },
+    { id: 'c', titel: 'C', kategori: 'k', nyckelord: ['x'] },
+  ],
+};
+
+function relFiles() {
+  return new Map([
+    ['a', subjectMarkdown({ id: 'a', titel: 'A', kategori: 'k', nyckelord: ['x'] })],
+    ['b', subjectMarkdown({ id: 'b', titel: 'B', kategori: 'k', nyckelord: ['x'] })],
+    ['c', subjectMarkdown({ id: 'c', titel: 'C', kategori: 'k', nyckelord: ['x'] })],
+  ]);
+}
+
+test('relaterade is absent/empty when no crossrefs are supplied', () => {
+  const data = buildData(REL_MANIFEST, relFiles());
+  for (const amne of data.amnen) {
+    assert.deepEqual(amne.relaterade, []);
+  }
+});
+
+test('relaterade is symmetric, titled, manifest-ordered, and drops invalid ids', () => {
+  const crossrefs = {
+    relationer: {
+      a: ['b', 'zzz-invalid'],
+      c: ['a'],
+    },
+  };
+  const data = buildData(REL_MANIFEST, relFiles(), crossrefs);
+  const byId = Object.fromEntries(data.amnen.map((a) => [a.id, a]));
+
+  // a -> b directly, and a <- c symmetrically (c lists a), sorted by manifest order (b, c)
+  assert.deepEqual(byId.a.relaterade, [
+    { id: 'b', titel: 'B' },
+    { id: 'c', titel: 'C' },
+  ]);
+
+  // b only related via a's listing of b (symmetric)
+  assert.deepEqual(byId.b.relaterade, [{ id: 'a', titel: 'A' }]);
+
+  // c relates to a directly (c -> a)
+  assert.deepEqual(byId.c.relaterade, [{ id: 'a', titel: 'A' }]);
+});
+
+test('relaterade defaults to [] when crossrefs has no relationer key', () => {
+  const data = buildData(REL_MANIFEST, relFiles(), {});
+  for (const amne of data.amnen) {
+    assert.deepEqual(amne.relaterade, []);
+  }
+});
+
+test('relaterade ignores a self-reference', () => {
+  const crossrefs = { relationer: { a: ['a', 'b'] } };
+  const data = buildData(REL_MANIFEST, relFiles(), crossrefs);
+  const byId = Object.fromEntries(data.amnen.map((a) => [a.id, a]));
+  // 'a' listing itself must not produce a self-link; only the real relation to 'b' survives
+  assert.deepEqual(byId.a.relaterade, [{ id: 'b', titel: 'B' }]);
+  assert.deepEqual(byId.b.relaterade, [{ id: 'a', titel: 'A' }]);
+});
+
+test('relaterade de-duplicates repeated ids', () => {
+  const crossrefs = { relationer: { a: ['b', 'b', 'b'] } };
+  const data = buildData(REL_MANIFEST, relFiles(), crossrefs);
+  const byId = Object.fromEntries(data.amnen.map((a) => [a.id, a]));
+  // a repeated 'b' collapses to a single entry
+  assert.deepEqual(byId.a.relaterade, [{ id: 'b', titel: 'B' }]);
+});
+
+test('relaterade de-duplicates when both directions list the same pair', () => {
+  const crossrefs = { relationer: { a: ['b'], b: ['a'] } };
+  const data = buildData(REL_MANIFEST, relFiles(), crossrefs);
+  const byId = Object.fromEntries(data.amnen.map((a) => [a.id, a]));
+  // a<->b declared from both sides must not produce duplicate entries
+  assert.deepEqual(byId.a.relaterade, [{ id: 'b', titel: 'B' }]);
+  assert.deepEqual(byId.b.relaterade, [{ id: 'a', titel: 'A' }]);
+});
