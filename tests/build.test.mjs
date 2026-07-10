@@ -158,3 +158,59 @@ test('throws listing errors across all invalid files, not just the first', () =>
     }
   );
 });
+
+// --- relaterade (cross-references) ---
+
+const REL_MANIFEST = {
+  kategorier: [{ id: 'k', titel: 'K' }],
+  amnen: [
+    { id: 'a', titel: 'A', kategori: 'k', nyckelord: ['x'] },
+    { id: 'b', titel: 'B', kategori: 'k', nyckelord: ['x'] },
+    { id: 'c', titel: 'C', kategori: 'k', nyckelord: ['x'] },
+  ],
+};
+
+function relFiles() {
+  return new Map([
+    ['a', subjectMarkdown({ id: 'a', titel: 'A', kategori: 'k', nyckelord: ['x'] })],
+    ['b', subjectMarkdown({ id: 'b', titel: 'B', kategori: 'k', nyckelord: ['x'] })],
+    ['c', subjectMarkdown({ id: 'c', titel: 'C', kategori: 'k', nyckelord: ['x'] })],
+  ]);
+}
+
+test('relaterade is absent/empty when no crossrefs are supplied', () => {
+  const data = buildData(REL_MANIFEST, relFiles());
+  for (const amne of data.amnen) {
+    assert.deepEqual(amne.relaterade, []);
+  }
+});
+
+test('relaterade is symmetric, titled, manifest-ordered, and drops invalid ids', () => {
+  const crossrefs = {
+    relationer: {
+      a: ['b', 'zzz-invalid'],
+      c: ['a'],
+    },
+  };
+  const data = buildData(REL_MANIFEST, relFiles(), crossrefs);
+  const byId = Object.fromEntries(data.amnen.map((a) => [a.id, a]));
+
+  // a -> b directly, and a <- c symmetrically (c lists a), sorted by manifest order (b, c)
+  assert.deepEqual(byId.a.relaterade, [
+    { id: 'b', titel: 'B' },
+    { id: 'c', titel: 'C' },
+  ]);
+
+  // b only related via a's listing of b (symmetric)
+  assert.deepEqual(byId.b.relaterade, [{ id: 'a', titel: 'A' }]);
+
+  // c relates to a directly (c -> a)
+  assert.deepEqual(byId.c.relaterade, [{ id: 'a', titel: 'A' }]);
+});
+
+test('relaterade defaults to [] when crossrefs has no relationer key', () => {
+  const data = buildData(REL_MANIFEST, relFiles(), {});
+  for (const amne of data.amnen) {
+    assert.deepEqual(amne.relaterade, []);
+  }
+});

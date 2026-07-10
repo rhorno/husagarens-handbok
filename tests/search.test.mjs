@@ -129,9 +129,33 @@ test('snippet is the first body occurrence of the first query token, ±60 chars'
   const results = search(index, 'häck');
   const hit = results.find((r) => r.sectionTitle === 'Underhåll');
   assert.ok(hit);
-  assert.equal(hit.snippet.match, 'häckar');
+  assert.equal(hit.snippet.match, 'Häckar');
   assert.equal(hit.snippet.before, '');
   assert.ok(hit.snippet.after.startsWith(' och buskar'));
+});
+
+test('snippet preserves original casing from the source text while matching stays case-insensitive', () => {
+  const subjects = [
+    {
+      id: 'gras',
+      titel: 'Gräsmatta',
+      kategori: 'utomhus',
+      nyckelord: [],
+      sections: [
+        {
+          title: 'Skötsel',
+          level: null,
+          text: 'Vår rutin: klipp Gräsmattan regelbundet varje vecka på sommaren.',
+        },
+      ],
+    },
+  ];
+  const index = buildIndex(subjects);
+  const results = search(index, 'gräs');
+  assert.equal(results.length, 1);
+  assert.equal(results[0].snippet.match, 'Gräsmattan');
+  assert.equal(results[0].snippet.before, 'Vår rutin: klipp ');
+  assert.ok(results[0].snippet.after.startsWith(' regelbundet'));
 });
 
 test('empty query returns empty results', () => {

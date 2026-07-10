@@ -37,17 +37,19 @@
   }
 
   function buildSnippet(text, token) {
-    const workingText = normalize(text);
+    // Match case/diacritic-foldedly (lowercase comparison), but slice the
+    // returned before/match/after from the ORIGINAL text so casing is preserved.
+    const original = text == null ? '' : String(text);
     const wordRe = /[\p{L}\p{N}]+/gu;
     let m;
-    while ((m = wordRe.exec(workingText)) !== null) {
-      if (m[0].startsWith(token)) {
+    while ((m = wordRe.exec(original)) !== null) {
+      if (normalize(m[0]).startsWith(token)) {
         const start = m.index;
         const end = start + m[0].length;
         return {
-          before: workingText.slice(Math.max(0, start - 60), start),
-          match: workingText.slice(start, end),
-          after: workingText.slice(end, end + 60),
+          before: original.slice(Math.max(0, start - 60), start),
+          match: original.slice(start, end),
+          after: original.slice(end, end + 60),
         };
       }
     }
