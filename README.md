@@ -1,16 +1,20 @@
 # Husägarens handbok
 
+**Publicerad:** https://rhorno.github.io/husagarens-handbok/
+
 En komplett, faktagranskad och sökbar dokumentation för husägare i Sverige — 59 ämnen från bolån och försäkringar till el, tak, trädgård, smarta hem och hemberedskap. Skriven på svenska, för både nybörjare och proffs.
 
 Varje ämne har en nivåtrappa: **Grunderna** (förutsätter ingen förkunskap), **Praktisk vägledning** (mellan) och **Fördjupning** (avancerad). Varje faktapåstående har en diskret, klickbar källhänvisning till en myndighet, branschorganisation eller erkänd expert (Boverket, Elsäkerhetsverket, MSB, Skatteverket m.fl.).
 
 ## Öppna sajten
 
-Ingen server och inga beroenden krävs — allt fungerar direkt via `file://`:
+Sajten är publicerad på https://rhorno.github.io/husagarens-handbok/. Den fungerar även lokalt utan server eller beroenden, direkt via `file://`:
 
 ```
 open site/index.html
 ```
+
+Publicering sker automatiskt: en push till `main` kör `.github/workflows/pages.yml`, som validerar innehållet, bygger om `site/data.js`, kör testerna och deployar `site/` till GitHub Pages.
 
 Sök överst (`/` fokuserar sökrutan), bläddra bland kategorierna i sidopanelen, hoppa mellan avsnitt via "På sidan", och klicka på källsiffrorna för att se källan.
 
