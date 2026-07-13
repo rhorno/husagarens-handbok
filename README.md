@@ -46,3 +46,7 @@ node --test tests/*.test.mjs
 ## Källor och tillförlitlighet
 
 Allt innehåll är framtaget genom djup research mot officiella källor och därefter adversariellt faktagranskat: en oberoende granskare har hämtat de citerade sidorna och kontrollerat att varje viktigt påstående (lagkrav, belopp, säkerhetsgränser, tidsfrister) faktiskt stöds av källan. Reglerna ändras dock över tid — kontrollera alltid aktuella belopp och regler hos respektive myndighet, och notera att många regler varierar mellan kommuner.
+
+## Licens
+
+MIT — se [LICENSE](LICENSE).
