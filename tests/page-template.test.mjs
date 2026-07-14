@@ -47,3 +47,19 @@ test('pageHtml emits canonical, description, OG, JSON-LD and site scripts but no
   assert.match(html, /window\.SITE=/);
   assert.match(html, /<html lang="sv">/);
 });
+
+test('pageHtml escapes </script> inside JSON-LD so the script tag cannot be broken out of', () => {
+  const html = pageHtml({
+    title: 'Tak — Husägarens handbok',
+    description: 'Om tak',
+    canonicalPath: '/amne/tak/',
+    ogType: 'article',
+    jsonLd: [{ '@type': 'TechArticle', headline: 'a</script><b>' }],
+    sidebarHtml: '<nav></nav>',
+    breadcrumbHtml: '<nav class="breadcrumbs"></nav>',
+    mainHtml: '<article><h1>Tak</h1></article>',
+    tocHtml: '<ul></ul>',
+  });
+  assert.ok(!html.includes('a</script>'));
+  assert.ok(html.includes('a\\u003c/script>'));
+});

@@ -2,6 +2,10 @@
 // Renders full HTML documents for the static site.
 import { href, absUrl, PATH_PREFIX } from './site-url.mjs';
 
+function jsonForScript(value) {
+  return JSON.stringify(value).replace(/</g, '\\u003c');
+}
+
 export function escapeHtml(value) {
   return String(value == null ? '' : value)
     .replace(/&/g, '&amp;')
@@ -81,8 +85,8 @@ export function pageHtml(opts) {
 
   const canonical = absUrl(canonicalPath);
   const ogImage = absUrl('/assets/og-default.png');
-  const siteConfig = 'window.SITE=' + JSON.stringify({ prefix: PATH_PREFIX, searchIndexUrl: href('/search-index.js') }) + ';';
-  const ldScripts = jsonLd.map((o) => '<script type="application/ld+json">' + JSON.stringify(o) + '</script>').join('\n');
+  const siteConfig = 'window.SITE=' + jsonForScript({ prefix: PATH_PREFIX, searchIndexUrl: href('/search-index.js') }) + ';';
+  const ldScripts = jsonLd.map((o) => '<script type="application/ld+json">' + jsonForScript(o) + '</script>').join('\n');
 
   const aside = tocHtml
     ? '<aside class="toc" id="toc" aria-label="På sidan">' + tocHtml + '</aside>'
