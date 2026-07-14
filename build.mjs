@@ -1,12 +1,18 @@
 // Build script: compiles researched markdown content (content/<kategori>/<id>.md)
 // plus subjects.json into site/data.js, a classic script assigning
 // globalThis.HANDBOK for the static site to consume over file://.
-import { readFileSync, writeFileSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parseSubjectFile } from './build/parse.mjs';
 import { validateSubject } from './build/validate.mjs';
 import { renderMarkdown, stripToText } from './build/markdown.mjs';
+import { BASE_URL, absUrl, subjectPath, categoryPath } from './build/site-url.mjs';
+import { renderHomePage, renderCategoryPage, renderSubjectPage, render404 } from './build/render-pages.mjs';
+import { renderSearchIndexJs } from './build/search-index.mjs';
+import { renderSitemap, renderRobots, renderLlmsTxt, renderLlmsFullTxt } from './build/discovery.mjs';
+import { deriveDescription } from './build/describe.mjs';
+import { gitDates } from './build/dates.mjs';
 
 const root = dirname(fileURLToPath(import.meta.url));
 
@@ -95,6 +101,87 @@ export function buildData(manifest, files, crossrefs) {
   };
 }
 
+function buildContext(handbok) {
+  const amnenByKategori = new Map(handbok.kategorier.map((k) => [k.id, []]));
+  for (const a of handbok.amnen) {
+    if (!amnenByKategori.has(a.kategori)) amnenByKategori.set(a.kategori, []);
+    amnenByKategori.get(a.kategori).push(a);
+  }
+  const katTitelById = new Map(handbok.kategorier.map((k) => [k.id, k.titel]));
+  return { kategorier: handbok.kategorier, amnenByKategori, katTitelById };
+}
+
+function writeFile(outDir, relPath, contents) {
+  const full = join(outDir, relPath);
+  mkdirSync(dirname(full), { recursive: true });
+  writeFileSync(full, contents);
+}
+
+export function generateSite(handbok, { outDir, contentDir, buildDate }) {
+  const ctx = buildContext(handbok);
+  let fileCount = 0;
+  const write = (rel, c) => { writeFile(outDir, rel, c); fileCount++; };
+
+  // Home
+  write('index.html', renderHomePage(ctx));
+
+  // Category pages
+  for (const kat of handbok.kategorier) {
+    const subs = ctx.amnenByKategori.get(kat.id) || [];
+    write(join('kategori', kat.id, 'index.html'), renderCategoryPage(kat, subs, ctx));
+  }
+
+  // Subject pages
+  const dateByAmne = new Map();
+  for (const a of handbok.amnen) {
+    const dates = gitDates(join(contentDir, a.kategori, a.id + '.md'), buildDate);
+    dateByAmne.set(a.id, dates);
+    write(join('amne', a.id, 'index.html'), renderSubjectPage(a, dates, ctx));
+  }
+
+  // Search index
+  write('search-index.js', renderSearchIndexJs(handbok));
+
+  // 404
+  write('404.html', render404(ctx));
+
+  // Sitemap
+  const urls = [{ loc: absUrl('/'), lastmod: buildDate }];
+  for (const kat of handbok.kategorier) urls.push({ loc: absUrl(categoryPath(kat.id)), lastmod: buildDate });
+  for (const a of handbok.amnen) urls.push({ loc: absUrl(subjectPath(a.id)), lastmod: dateByAmne.get(a.id).dateModified });
+  write('sitemap.xml', renderSitemap(urls));
+
+  // robots.txt
+  write('robots.txt', renderRobots(absUrl('/sitemap.xml')));
+
+  // llms.txt
+  write('llms.txt', renderLlmsTxt({
+    title: 'Husägarens handbok',
+    summary: 'Komplett, faktagranskad och sökbar guide för husägare i Sverige.',
+    homeUrl: absUrl('/'),
+    categories: handbok.kategorier.map((kat) => ({
+      titel: kat.titel,
+      subjects: (ctx.amnenByKategori.get(kat.id) || []).map((a) => ({
+        titel: a.titel,
+        url: absUrl(subjectPath(a.id)),
+        description: deriveDescription((a.sections.find((s) => s.title === 'Översikt') || {}).text || ''),
+      })),
+    })),
+  }));
+
+  // llms-full.txt
+  write('llms-full.txt', renderLlmsFullTxt({
+    title: 'Husägarens handbok — fullständig text',
+    subjects: handbok.amnen.map((a) => ({
+      titel: a.titel,
+      url: absUrl(subjectPath(a.id)),
+      text: a.sections.map((s) => s.title + '\n' + s.text).join('\n\n'),
+    })),
+  }));
+
+  return { fileCount };
+}
+
 function main() {
   const manifest = JSON.parse(readFileSync(join(root, 'subjects.json'), 'utf8'));
 
@@ -124,9 +211,13 @@ function main() {
     return;
   }
 
-  const outPath = join(root, 'site', 'data.js');
-  writeFileSync(outPath, `globalThis.HANDBOK = ${JSON.stringify(data)};\n`);
-  console.log(`OK: ${data.amnen.length} ämnen`);
+  const buildDate = new Date().toISOString().slice(0, 10);
+  const { fileCount } = generateSite(data, {
+    outDir: join(root, 'site'),
+    contentDir: join(root, 'content'),
+    buildDate,
+  });
+  console.log(`OK: ${data.amnen.length} ämnen, ${fileCount} filer genererade (${BASE_URL})`);
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {
