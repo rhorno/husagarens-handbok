@@ -163,7 +163,7 @@ export function render404(ctx) {
     canonicalPath: '/404.html',
     ogType: 'website',
     jsonLd: [],
-    headExtra: '<meta name="robots" content="noindex,follow">',
+    robots: 'noindex,follow',
     sidebarHtml: sidebarHtml({ kategorier: ctx.kategorier, amnenByKategori: ctx.amnenByKategori, activeSubjectId: null }),
     breadcrumbHtml: '',
     mainHtml,

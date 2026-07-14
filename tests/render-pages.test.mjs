@@ -50,4 +50,7 @@ test('404 page is noindex and links home', () => {
   const html = render404(CTX);
   assert.match(html, /404/);
   assert.match(html, /href="[^"]*\/husagarens-handbok\/"/);
+  assert.match(html, /content="noindex,follow"/);
+  assert.ok(!html.includes('content="index,follow"'));
+  assert.equal((html.match(/name="robots"/g) || []).length, 1);
 });

@@ -81,6 +81,7 @@ export function pageHtml(opts) {
   const {
     title, description, canonicalPath, ogType, jsonLd = [],
     headExtra = '', sidebarHtml: sidebar, breadcrumbHtml: crumbs = '', mainHtml, tocHtml = '',
+    robots = 'index,follow',
   } = opts;
 
   const canonical = absUrl(canonicalPath);
@@ -98,7 +99,7 @@ export function pageHtml(opts) {
     '<meta name="viewport" content="width=device-width, initial-scale=1">\n' +
     '<title>' + escapeHtml(title) + '</title>\n' +
     '<meta name="description" content="' + escapeHtml(description) + '">\n' +
-    '<meta name="robots" content="index,follow">\n' +
+    '<meta name="robots" content="' + robots + '">\n' +
     '<link rel="canonical" href="' + canonical + '">\n' +
     '<meta property="og:type" content="' + ogType + '">\n' +
     '<meta property="og:title" content="' + escapeHtml(title) + '">\n' +
