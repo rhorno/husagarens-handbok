@@ -2,3 +2,15 @@
 node_modules/
 .DS_Store
 .playwright-cli/
+
+# Generated static-site output (rebuilt by `node build.mjs` / CI on deploy)
+site/index.html
+site/404.html
+site/amne/
+site/kategori/
+site/search-index.js
+site/sitemap.xml
+site/robots.txt
+site/llms.txt
+site/llms-full.txt
+site/data.js

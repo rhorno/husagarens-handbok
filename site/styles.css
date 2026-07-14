@@ -604,3 +604,30 @@ body {
   .app-layout { grid-template-columns: 1fr; padding-top: 0; }
   .content { padding: 0; }
 }
+
+/* Breadcrumbs */
+.breadcrumbs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin: 0 0 1rem;
+}
+.breadcrumbs a { color: inherit; text-decoration: none; }
+.breadcrumbs a:hover { text-decoration: underline; }
+.breadcrumbs .crumb-sep { opacity: 0.5; }
+.breadcrumbs [aria-current="page"] { color: var(--text); font-weight: 600; }
+
+/* Category landing page */
+.category-view .category-subject-list {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 0.5rem;
+}
+.category-view .category-subject-list a { text-decoration: none; }
+.category-view .category-subject-list a:hover { text-decoration: underline; }
